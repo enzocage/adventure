@@ -14,19 +14,10 @@ Das Spiel nutzt modernste Generative AI (Gemini 2.5 Pro, Grok TTS, Imagen 4.0 & 
 
 ## 🖼️ Impressionen & Gameplay
 
-Hier sind einige visuelle Eindrücke der Benutzeroberfläche und der düsteren, lynchianischen Atmosphäre von Kaldermünd:
+Hier ist ein visueller Eindruck der Benutzeroberfläche und der düsteren, lynchianischen Atmosphäre von Kaldermünd:
 
 <div align="center">
-  <img src="public/screenshots/screenshot_1.png" width="31%" alt="KVR Benutzeroberfläche" />
-  <img src="public/screenshots/screenshot_2.png" width="31%" alt="Interaktive d100 Prüfung" />
-  <img src="public/screenshots/screenshot_3.png" width="31%" alt="Manila-Akte Spielerblatt" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="public/screenshots/screenshot_4.png" width="48%" alt="Vergrößertes Dossier" />
-  <img src="public/screenshots/screenshot_5.png" width="48%" alt="Generiertes Bild der Brutalistischen Fassade" />
+  <img src="public/Screenshot.png" width="100%" alt="Kaldermünd Gameplay Screenshot" />
 </div>
 
 ---
