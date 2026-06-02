@@ -18,20 +18,22 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
     spieler_status.md       ← LP, Resonanz, Inventar, aktuelle Position
     protokoll.md            ← Vollständiger Spielverlauf (Szene für Szene)
     charakterbogen.md       ← Entwicklungsstand, Entscheidungen, Beziehungen
-    weltstand.md            ← Was hat sich in Velundra verändert?
+    weltstand.md            ← Was hat sich in Kaldermünd verändert?
     nebencharaktere.md      ← Status aller NPCs (lebendig, tot, verbündet, feindlich)
     wuerfelprotokoll.md     ← Alle Würfe mit Kontext und Ergebnis
     nebenquests.md          ← Aktive / abgeschlossene / verpasste Nebenquests
 
 /assets/
   /bilder/
-    markt_stille_zone.png
-    werkstatt_nacht.png
+    kvr_wartezone_neon.webp
+    untergeschoss_gang.webp
+    werkstatt_abend.webp
     ... (alle generierten Szenenbilder)
   /musik/
-    stadtambience_tag.mp3
-    kathedrale_stille.mp3
-    gefahr_verfolgung.mp3
+    neon_hum_ambience.mp3
+    stille_zone_drone.mp3
+    untergeschoss_piano.mp3
+    verfolgung_industrial.mp3
     ... (alle generierten Musikloops)
 ```
 
@@ -42,20 +44,20 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
 ```markdown
 # Spielerstatus
 
-**Stand:** 2024-10-15 | Szene 7
+**Stand:** 2026-10-15 | Szene 7
 
 | | |
 |---|---|
 | **Lebensenergie** | 73 / 100 LP |
 | **Resonanz** | Belastet (–10 auf Wahrnehmungswürfe) |
-| **Ort** | Kerzenviertel, Schmalfassgasse 11 |
-| **Zeit** | Dienstag, Abend, Stunde der Kerze |
+| **Ort** | Verwaltungszentrum, Untergeschoss –2 |
+| **Zeit** | Dienstag, 16:42 Uhr |
 
 ## Inventar
-- Wachsgießer-Werkzeug
-- Zettel mit der Botschaft
-- Kleines Messer (Arbeitswerkzeug)
-- 4 Silbermünzen
+- Hausausweis KVR (Rahmenvertrag Kerzenlieferung)
+- Zettel von Ornstein (Formular U-0 / Hinweis)
+- Taschenmesser (Arbeitswerkzeug)
+- 23 Euro, Stadtbahnticket (gültig bis 18:00)
 
 ## Aktiver Effekt
 - Wunde am rechten Unterarm (bis Szene 10 –5 auf Kampfwürfe)
@@ -70,15 +72,15 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
 
 ---
 
-## Szene 1 — Der Markt und das Schweigen
-**Zeit:** Dienstag, Morgen
-**Ort:** Wachsviertel, Wochenmarkt
+## Szene 1 — D-347
+**Zeit:** Dienstag, 09:14 Uhr
+**Ort:** Verwaltungszentrum, Wartezone C, Erdgeschoss
 
 [Vollständige Spielleiter-Narration]
 
-**Spieleraktion:** Zettel aufheben, Guard anlügen versucht — Kehle versagt, schweigt statt.
+**Spieleraktion:** Zettel aufheben. Sicherheitsmann fragt — Tomas schweigt statt zu lügen.
 **Würfelwurf:** entfallen (keine ambitionierte Aktion)
-**Ergebnis:** Guard akzeptiert das Schweigen. Tomas ist frei.
+**Ergebnis:** Sicherheitsmann akzeptiert das Schweigen. Tomas ist frei.
 **LP-Änderung:** keine
 
 ---
@@ -94,13 +96,13 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
 # Weltstand
 
 **Stille Zonen aktiv:**
-- [ ] Wachsviertel Marktplatz (AUFGELÖST, Szene 1)
-- [x] Kathedrale Ostturm (seit Szene 3)
-- [x] Rathauskeller (seit Szene 5, wächst)
+- [ ] Wartezone C, EG (AUFGELÖST, Szene 1)
+- [x] KVR Raum 4c, 2. OG (seit Szene 3)
+- [x] Untergeschoss –2, Gang B (seit Szene 5, wächst)
 
 **Bekannte Fakten über die Goldene Lüge:**
-- Tomas weiß: Es gibt ein Archiv
-- Tomas weiß nicht: Was dort drin ist
+- Tomas weiß: Es gibt ein Archiv in den Untergeschossen
+- Tomas weiß nicht: Was der Originaldraftentwurf der Stadtverfassung wirklich sagt
 
 **Status der Stille Maschine:**
 - Ornstein: 72 Stunden bis zur Aktivierung (Stand: Szene 6)
@@ -115,16 +117,16 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
 
 ## Katrijn Voss
 - **Status:** Verbündet, lebendig
-- **Ort:** Schreibstube, Schmalfassgasse 9
-- **Weiß:** Tomas hat den Zettel
+- **Ort:** Copyshop, Schmalfassgasse 9
+- **Weiß:** Tomas hat den Zettel von Ornstein
 - **Vertraut:** Tomas vollständig
 - **Letzt gesehen:** Szene 4
 
-## Fenn Rouch
-- **Status:** Schwer verletzt, in Obhut der Heiler
-- **Ort:** Heilhaus, Altstadt
-- **Weiß:** Standort des Stillen Archivs
-- **Kann sprechen:** nein (seit der Stille-Zone)
+## Rainer Molt
+- **Status:** Schwer belastet, in ambulanter Behandlung
+- **Ort:** Ärztehaus, Bahnhofstraße 14
+- **Weiß:** Standort von Ornsteins Archiv (unbewusst)
+- **Kann sprechen:** nur in Behördenformulierungen (seit der Stille-Zone)
 ```
 
 ---
@@ -134,9 +136,9 @@ Kein manuelles Speichern nötig. Kein Spielstand-Menü. Das Spiel hält sich sel
 Vor jeder neuen Bild- oder Musikgenerierung prüft der Spielleiter:
 
 ```
-PRÜFUNG: Existiert ein passendes Bild für "Nacht, Kerzenwerkstatt, Innenraum, warm"?
-→ JA: /assets/bilder/werkstatt_nacht.png verwenden
-→ NEIN: Neu generieren, speichern, katalogisieren
+PRÜFUNG: Existiert ein passendes Bild für "Neon, KVR-Flur, Untergeschoss, leer"?
+→ JA: /assets/bilder/untergeschoss_gang.webp verwenden
+→ NEIN: Neu generieren via Antigravity 2.0, speichern, katalogisieren
 ```
 
 Bilder-Index (`/assets/bilder/INDEX.md`) enthält Tags für jedes Bild.

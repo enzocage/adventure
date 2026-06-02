@@ -1,79 +1,127 @@
-# Welt: Das Reich Velundra
+# Welt: Kaldermünd
 
 ---
 
 ## Überblick
 
-Velundra ist ein alterndes Barockreich — eine Welt zwischen Pracht und Verfall, zwischen öffentlicher Ordnung und privatem Chaos. Äußerlich erinnert es an das Europa des 17. Jahrhunderts: steinerne Städte mit Türmen und Märkten, Adelshäuser mit gepflegten Fassaden, Gilden, Kirchen, Handelsrouten. Darunter liegt etwas Dunkleres.
+Kaldermünd ist eine mittelgroße deutsche Stadt. Rund 200.000 Einwohner. Stadtbahn, Fußgängerzone, ein Weihnachtsmarkt, drei Schwimmbäder, eine überraschend gute Pizzeria in der Nähe des Bahnhofs. Alles vollkommen normal.
 
-Das Reich ist groß — sieben Stadtstaaten, verbunden durch ein kaiserliches Netz aus Recht, Geld und Ritual. Seit zweihundert Jahren besteht es. Seit dreißig Jahren bricht es langsam auseinander.
+Das Problem ist das Verwaltungszentrum.
+
+Genauer: das Problem ist, was das Verwaltungszentrum geworden ist.
+
+---
+
+## Das Verwaltungszentrum
+
+Ein Brutalist-Komplex aus den 1970er Jahren, sieben Stockwerke, mehrfach modernisiert, zuletzt 2019 mit einer Glasfassade über dem Beton, die nichts verdeckt außer dem Beton. Das Gebäude beherbergt:
+
+- Das **KVR** (Kreisverwaltungsreferat)
+- Das **Einwohnermeldeamt**
+- Das **Standesamt**
+- Die **Zulassungsstelle** (Fahrzeuge, aber auch anderes)
+- Das **Amt für unklare Verhältnisse** (Raum 4c, zweiter Stock, kein Schild, kein Eintrag auf der Webseite)
+- Das **Stadtarchiv** (Untergeschoss –1 und –2; weiter unten gibt es Stockwerke, die auf keinem Grundriss eingetragen sind)
+
+Das Verwaltungszentrum riecht nach Neonlicht und altem Laminat. Die Decken sind zu niedrig und zu hoch gleichzeitig. Die Wartenummern-Displays zeigen gelegentlich Nummern, die noch nicht ausgegeben wurden.
+
+---
+
+## Was das System geworden ist
+
+Irgendwann in den letzten Jahrzehnten hat die Bürokratie von Kaldermünd aufgehört, ein Werkzeug zu sein.
+
+Sie ist ein Organismus.
+
+Nicht im metaphorischen Sinne. In einem sehr konkreten, leise erschreckenden Sinne: Das System verarbeitet, aber nicht mehr für jemanden. Es hat sich selbst als Zweck gesetzt. Formulare erzeugen Formulare. Ablehnungen erzeugen Widerspruchsformulare, die zu Ablehnungen führen, die neue Widerspruchsformulare erzeugen. Abteilungen existieren, um andere Abteilungen zu koordinieren, die für die ersten Abteilungen zuständig sind.
+
+Die Mitarbeiter wissen das. Die meisten haben aufgehört, darüber nachzudenken.
+
+---
+
+## Die Magie — subtil, falsch, persistent
+
+Kaldermünd hat Magie. Aber sie wurde nie so genannt.
+
+**Die Formulare:**
+Manche Antragsformulare tun Dinge. Nicht alle. Nicht immer. Ein Ummeldungsformular, das im richtigen Moment eingereicht wird, bewegt nicht nur eine Adresse in einer Datei — es bewegt etwas im Leben des Antragstellers. Ein Gewerbeanmeldung von 1973 hat dreimal denselben Antragsteller verewigt; alle drei leben noch. Niemand hat das je untersucht.
+
+**Die Wartenummern:**
+Zeit vergeht in Wartebereichen anders. Eine Wartezeit von zwanzig Minuten kann drei Stunden dauern oder vier Sekunden. Der Automaten-Drucker für Nummern hat Gedächtnis. Manche Nummern wurden schon ausgegeben, bevor der betreffende Mensch das Gebäude betreten hat.
+
+**Die Stempel:**
+Einige Gummistempel, die tausendfach benutzt wurden, haben Intentionalität entwickelt. Der Genehmigungsstempel aus dem Bauamt von 1984 genehmigt manchmal Dinge von allein, die auf den Tischen darunter liegen. Kleine Dinge. Aber real.
+
+**Die Korridore:**
+Die Architektur des Verwaltungszentrums ist nicht stabil. Das merkt man erst nach einer Weile. Korridore verlängern sich, wenn man gestresst ist. Treppenhäuser führen manchmal auf Stockwerke, die nicht gesucht wurden. Wer kennt die Abkürzung? Der, der nicht nachdenkt.
+
+**Die unteren Stockwerke:**
+Untergeschoss –1: Archivräume, Aktenregale, Neonlicht.
+Untergeschoss –2: Ältere Akten, Geruch nach Papier und Zeit.
+Untergeschoss –3: Kein Eintrag im Grundriss. Kein Aufzugknopf. Die Reinigungskräfte sprechen nicht darüber.
+Untergeschoss –4 und tiefer: Das **Archiv der nicht abgeschlossenen Vorgänge**. Millionen von Anträgen, nie bearbeitet, nie abgelehnt, nie genehmigt. Sie warten. Manche Akten sind noch warm.
+
+---
+
+## Die Stillen Zonen
+
+Seit etwa zwei Jahren entstehen in Kaldermünd sogenannte **Stille Zonen** — Bereiche, in denen bürokratische Prozesse so komplex, so selbstreferenziell geworden sind, dass die Realität selbst in einen Bearbeitungsloop gerät.
+
+In einer Stillen Zone:
+- Können Menschen keine vollständigen Sätze formulieren — ihre Sprache zerfällt in Amtsdeutsch, Floskeln, Formulierungen ohne Subjekt
+- Verlieren Uhren ihre Kohärenz — manche Uhren laufen rückwärts, andere zeigen keine Zeit mehr an
+- Entstehen Papierberge aus dem Nichts
+- Kommen Menschen hinein, kommen aber nicht heraus — bis ein Vorgang "abgeschlossen" wird, der nie begonnen hat
+
+Die Stadt nennt es offiziell "temporäre Systemüberauslastungen." Die Pressestelle hat dafür ein PDF herausgegeben. Das PDF kann nicht geöffnet werden. Beim Versuch erscheint ein Dialog: *Für diesen Vorgang ist eine Genehmigung erforderlich.*
 
 ---
 
 ## Die Goldene Lüge
 
-Das Fundament Velundras ist eine konstruierte Wahrheit: die Geschichte von Großkaiserin Aldra, die das Reich vor einem Urzeitmonster rettete, indem sie ihr Leben opferte und deren Geist seitdem das Reich beschützt. Aus diesem Glauben zieht der Kaiser seine Legitimität, das Klerus seinen Einfluss, und die Bürger ihren Zusammenhalt.
+Paragraph 1, Satz 1 der Kaldermünder Stadtverfassung von 1949:
 
-Es ist eine Lüge. Aldra hat nie existiert. Das Monster war eine Seuche. Die Geschichte wurde erfunden, um das Bündnis von sieben feindlichen Stadtstaaten zu zementieren.
+> *„Die Verwaltung dient dem Bürger."*
 
-Fast niemand weiß das. Aber jemand weiß es. Und dieser jemand hat die Belege.
+Auf Marmor gemeißelt im Eingangsfoyer des Verwaltungszentrums. Handgerahmt in jedem Büro. Laminiert an jeder Wartezimmer-Wand.
 
----
+Es ist eine Lüge.
 
-## Die sieben Stadtstaaten
+Der Originaldraftentwurf der Verfassung, noch vor der Reinschrift, lautet:
 
-| Stadtstaat | Charakter | Besonderheit |
-|---|---|---|
-| **Kaldermark** | Handels- und Handwerkszentrum | Wo Tomas lebt. Pragmatisch, geschäftig, komplex. |
-| **Veth** | Akademie- und Klerusstadt | Bücher, Dogmen, Intrigen in Bibliotheken |
-| **Ossindra** | Militärisches Bollwerk | Grenzfestung, düster, loyal |
-| **Raumfurt** | Hafen und Schmuggel | Freie Zone, jeder ist käuflich |
-| **Kellenborn** | Kaiserliche Residenz | Pracht, Theater, tiefe Korruption |
-| **Südhalde** | Landwirtschaft, Armut | Unterdrückt, gärend, kurz vor Aufstand |
-| **Waldmur** | Verlassen / Verbotene Zone | Zerstört vor 20 Jahren — niemand weiß genau warum |
+> *„Die Verwaltung dient der Kontinuität des Verwaltens."*
 
----
+Jemand hat den Satz in der Nacht vor der Unterzeichnung geändert. Jemand wusste, was er tat. Der Name dieser Person steht nirgends in der offiziellen Geschichte der Stadt.
 
-## Die Stille
-
-Seit etwa drei Jahren breitet sich etwas aus, das die Menschen "die Stille" nennen: Bereiche in Städten, in denen kein Laut mehr trägt. Stimmen versagen. Musik stirbt. Selbst das Klappern von Hufen wird gedämpft, wie unter Wasser.
-
-Diese Zonen entstehen zuerst in Kirchen, dann in Rathäusern, dann in Gassen. Sie wandern. Sie wachsen. Die Gelehrten streiten über die Ursache. Die Kirche nennt es Gottesstrafe. Die Händler nennen es Hysterie. Die Betroffenen nennen es Terror.
-
-Was niemand sagt: Die Stillen Zonen beginnen immer dort, wo zuvor eine besonders große kollektive Lüge gesprochen wurde.
-
-Tomas hat das bemerkt.
-
----
-
-## Magie
-
-Magie in Velundra ist selten, instabil und an Wahrhaftigkeit gebunden. Die alte Lehre sagt: Magie entsteht dort, wo das Gesagte und das Gemeinte identisch sind — wo Wort und Wirklichkeit sich berühren. Große Magie wurde immer durch Eide geleistet, nicht durch Sprüche.
-
-Die Stärke des magischen Feldes in Velundra nimmt ab. Die Magieschüler bemerken es. Manche sagen: Die Welt verliert ihre Resonanz.
+Vael Ornstein hat herausgefunden, wer es war. Er hat die Korrespondenz gefunden. Er hat alles.
 
 ---
 
 ## Soziale Ordnung
 
-- **Der Kaiser** (Aldravicus IV.) ist alt, krank, und regiert durch Stellvertreter.
-- **Die Ratsherren** der Stadtstaaten haben de facto die Macht.
-- **Die Kirche der Aldra** hat moralisches Monopol, ist korrupt bis in den Kern.
-- **Die Gilden** kontrollieren Wirtschaft und Handwerk.
-- **Das Volk** arbeitet, bezahlt Steuern, glaubt an die Goldene Lüge.
+| Ebene | Realität |
+|---|---|
+| **Stadtrat** | Trifft Entscheidungen, die vom System bereits getroffen wurden |
+| **Amtsleiter** | Verwalten Prozesse, die sich selbst verwalten |
+| **Sachbearbeiter** | Führen Anweisungen aus, die niemand gegeben hat |
+| **Bürger** | Füllen Formulare aus, die niemand liest — und trotzdem etwas bewegen |
 
 ---
 
 ## Atmosphäre
 
-Velundra riecht nach Kerzenwachs und nassem Stein. Die Straßen sind eng und gepflastert. Die Gebäude sind hoch, mit hölzernen Überhängen. Im Winter liegt Nebel über allem.
+Kaldermünd tagsüber: vollkommen normal. Kaffeebecher auf Schreibtischen. Stadtbahn-Durchsagen. Bäckerei-Geruch aus dem Erdgeschoss. Straßenschilder, leicht verblasst.
 
-Es ist eine Welt, in der man für das Richtige bestraft und für das Falsche belohnt wird — und alle wissen das, und fast alle machen weiter. Es ist eine Welt, die funktioniert, weil alle so tun als ob.
+Kaldermünd nachts im Verwaltungszentrum: Neonlicht summt in einer Frequenz, die minimal zu hoch ist. Flure, die bei schlechtem Licht länger werden. Das Ticken einer Uhr, die nicht da ist. Das Rascheln von Papier in einem Raum, der gesperrt ist.
 
-Tomas Gretsch hört, wie sie sich selbst belügt.
+David Lynch hat hier einmal einen Zug genommen. Er ist sofort wieder ausgestiegen und hat später gesagt: *Ich verstehe das nicht.*
+
+Das ist ein gutes Zeichen.
 
 ---
 
 ## Zeitpunkt der Geschichte
 
-Das Abenteuer beginnt im Herbst des Jahres 344 nach Gründung des Reichs. Die Blätter fallen. Die Stille wächst. Und im Archiv eines alten Mannes liegt ein Dokument, das die Goldene Lüge beweist.
+Herbst 2026. Ein Dienstag. Die erste Wartenummer des Tages wurde um 7:47 Uhr ausgegeben. Sie lautete D-0. Der Automat zeigt normalerweise keine Null an.
+
+Tomas Gretsch hat Nummer D-347.

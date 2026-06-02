@@ -1,102 +1,126 @@
-# Spielstart: Der Markt und das Schweigen
+# Spielstart: D-347
 
-**Die Eröffnungsszene des Abenteuers**
+**Die Eröffnungsszene**
 
 ---
 
-## Situation
+## Ausgangslage
 
-Ein Dienstagmorgen, früher Herbst. Kaldermark, unteres Wachsviertel. Wochenmarkt.
+Dienstag, 9:14 Uhr. Kaldermünd, Verwaltungszentrum, Erdgeschoss.
 
-Tomas ist seit einer Stunde hier. Er kauft Rohbienenwachs für die Herbstlieferung an die Kathedrale — eine große Bestellung, die er in drei Tagen erfüllen muss. Der Händler vor ihm ist ein kleiner, rotgesichtiger Mann mit einer Schürze, die zu sauber ist für jemanden, der echten Honig verkauft.
+Wartezone C, Bereich Gewerbeanmeldungen und -änderungen.
 
-Der Markt ist, wie immer, eine Symphonie kleiner Lügen. Tomas filtert sie routinemäßig. *„Frisch vom Morgen!"* — kleines Kratzen. *„Bester Preis der Stadt!"* — kurzer Misston. Er ist das gewohnt. Es gehört zum Markt wie Dreck zum Pflaster.
+Tomas Gretsch sitzt auf einem der Plastikschalenstühle — grau, leicht abgewetzt am Rand der Sitzfläche, exakt so unbequem, dass Sitzen anstrengend, Aufstehen aber keine echte Option ist. In seiner Hand: eine Wartenummer. Weißes Thermopapier, kleines Format, rote Aufschrift.
 
-Er beugt sich vor, um den Wachsblock zu befühlen. Er testet die Konsistenz.
+**D-347.**
 
-Und dann trifft es ihn.
+Das Display zeigt: **D-312.**
+
+Er ist seit 47 Minuten hier. Der Anlass: Verlängerung seines Gewerbescheins. Routine. Alle drei Jahre. Formular G-14b, ausgefüllt, unterschrieben, kopiert. Personalausweis dabei. Nachweis über Betriebsräume dabei. Ein weiteres Formular, dessen Notwendigkeit er nicht versteht, dabei, weil die Webseite der Stadt sagte, er könne es brauchen.
+
+Er hat alles richtig gemacht.
+
+Das weiß er, weil er alles immer richtig macht, und trotzdem.
+
+---
+
+## Die Wartezone
+
+Du siehst:
+
+Neonlicht, das leise summt. Deckenhöhe etwas zu hoch für den Raum. Plastikschalenstühle in zwei Reihen, neun von fünfzehn besetzt. Eine Pflanze in der Ecke — ein Gummibaum, zu ordentlich für echtes Leben, zu grün für Plastik, du bist nicht sicher.
+
+Eine Frau, Ende fünfzig, spricht halblaut in ihr Telefon: *„Ja ich bin schon fast fertig, ne noch ne Viertelstunde höchstens."* — Du hörst das vertraute Kratzen. Kleine Lüge. Routiniert.
+
+Ein Mann mit Laptop. Arbeitet. Oder tut so. Kleiner Misston, nicht von ihm, von seinem Bildschirm? Seltsam.
+
+Ein Kind, vielleicht sechs Jahre alt, starrt die Nummern-Anzeigetafel an. Es sagt nichts. Es lügt nicht. Für dich: angenehm ruhig, von dort.
+
+Das Display: **D-313.**
+
+Kaffeeautomat in der Ecke. Er zeigt an: *Kaffee schwarz — 0,50 €* und darunter, in derselben Schrift, eine zweite Zeile, die du nicht richtig lesen kannst.
 
 ---
 
 ## Der Moment
 
-Ein Ton.
+D-318.
 
-Kein Kratzen. Kein Misston. Etwas ganz anderes — etwas, das er in 34 Jahren nie gehört hat. Ein Frequenz tief unter allem anderen, die nicht aus einer menschlichen Kehle kommen kann. Eine Lüge so groß, so alt, so tief in das Fundament der Welt eingraviert, dass sie nicht wie Sprache klingt. Sie klingt wie das Fundament selbst, das einen Riss bekommt.
+D-319.
 
-Tomas lässt den Wachsblock fallen.
+Und dann — kein Kratzen, kein Misston, nichts Vertrautes. Etwas anderes.
 
-Er greift nach dem Karren des Händlers, um sich zu stützen. Der Händler sagt etwas — Tomas hört die Lippen sich bewegen, aber den Ton nicht mehr. Weil der Ton aufgehört hat.
+Ein Ton tief unter allem. Nicht aus einer Kehle, nicht aus einem Mund. Aus dem Boden. Aus den Wänden. Aus dem Gebäude selbst. Eine Frequenz so alt und so groß, dass du sie nicht hörst — du fühlst sie. Im Brustbein. Hinter den Augen. In deinen Zähnen.
 
-Alle Töne haben aufgehört.
+Die größte Lüge, die du je wahrgenommen hast. Sie ist nicht neu. Sie ist hier. Sie ist das Gebäude.
 
----
+Du hast sie vorher nie so deutlich gespürt.
 
-## Die Stille Zone
-
-Der Markt friert ein.
-
-Nicht die Menschen — sie bewegen sich noch, aber langsam, wie unter Wasser. Ein Huhn flattert lautlos. Ein Kind öffnet den Mund, kein Schrei kommt. Ein Fuhrwerk rollt lautlos über Pflastersteine.
-
-In der Mitte des Marktplatzes — dort, wo normalerweise die große Wassertragetonne steht — entsteht eine Zone absoluter Stille. Sichtbar nur durch das Verhalten der Luft: ein leichtes Flimmern, wie Hitze über Pflastersteinen, aber kalt.
-
-Drei Sekunden. Vielleicht vier.
-
-Dann kehren alle Geräusche gleichzeitig zurück.
-
-Chaos.
+Heute ist sie lauter.
 
 ---
 
-## Der Mann auf dem Boden
+## Die Tür
 
-In der Mitte der Stille-Zone liegt ein Mann. Er ist vielleicht fünfzig Jahre alt, gekleidet wie ein Handwerksgeselle, das Gesicht nach oben, die Augen offen. Er atmet — flach und schnell. Aus beiden Ohren: Blut. Nicht viel. Aber Blut.
+D-321.
 
-Seine rechte Hand ist zur Faust geballt. Als eine Händlerin sich bückt und ihn am Schulter rüttelt, öffnet sich die Faust. Ein zusammengefaltetes Stück Papier fällt auf das Pflaster.
+Am Ende des Ganges, dort wo nach dem Plan des Gebäudes — du kennst diesen Plan, du bist oft genug hier — eine Wand sein sollte, ist eine Tür.
 
-Menschen drängen sich heran. Jemand ruft nach einem Stadtguard. Die Menge schließt sich. Das Papier liegt unbeachtet zwischen den Füßen.
+Lichtgrau. Standard-Bürotür. Kein Schild.
 
-Tomas ist noch am nächsten. Zwei Schritte.
+Sie steht einen Spalt offen.
 
-Er hebt das Papier auf.
+Durch den Spalt: ein Korridor. Neonlicht, weiter hinten. Der Korridor geht weiter, als er sollte. Weiter als das Gebäude erlaubt.
 
----
+Drei Sekunden lang ist die Tür offen.
 
-## Die Botschaft
+Dann geht sie zu.
 
-Eine einzige Zeile, in sauberer Schrift:
-
-> *„Die Königin schläft nicht. Sie wartet im Archiv."*
-
-Tomas liest es. Kein Laut, keine Frequenz — es ist geschriebenes Wort, nicht gesprochenes. Aber irgendetwas in ihm registriert es trotzdem: das ist keine Lüge. Das ist keine Fiktion. Das ist etwas so Aufrichtiges, dass es resoniert wie ein reiner Ton in einem leeren Raum.
-
-Er versteht es nicht. Er hat keine Ahnung, wer die Königin ist. Er weiß nicht, was das Archiv ist.
-
-Er steckt den Zettel ein.
+D-322.
 
 ---
 
-## Die erste Entscheidung
+## Der Mann
 
-Ein Stadtguard schiebt sich durch die Menge. Groß, graubärtig, mit dem Blick eines Mannes, der heute keine Überraschungen mehr will.
+Gleichzeitig: Ein Geräusch, direkt vor dir. Jemand, der von seinem Stuhl gleitet — nicht stürzt, gleitet, als würde ein Körper die Koordination vergessen. Der Mann mit dem Laptop. Er sitzt jetzt halb auf dem Boden, Laptop noch auf den Knien, Augen offen, Mund einen Moment lang offen — und dann hörst du, aus ihm, aus seiner Richtung, etwas das du nicht kennst.
 
-Er schaut auf den bewusstlosen Mann. Dann auf Tomas.
+Keinen Misston. Kein Kratzen. Einen Ton wie Stille, die laut wird. Als würde jemand absolute Wahrheit aussprechen, aber mit der Kehle statt dem Mund.
 
-> *„Kennst du den?"*
+Er sagt gar nichts.
 
-Tomas schaut in das Gesicht des Guards. Er hört keine Lüge in der Frage. Nur Pflichterfüllung. Aber in den Augen des Guards liegt etwas — eine Erwartung. Eine Erwartung, dass Tomas sagt: *Nein, ich kenne ihn nicht, ich war nur zufällig dabei.*
+Aus seinen Ohren: Blut. Wenig. Aber Blut.
 
-Was sagt Tomas?
+Sein Laptop ist zugeklappt. Auf dem Deckel liegt, halb darunter gerutscht: ein Zettel. DIN A6. Handschrift. Tinte.
+
+Das Wartenummern-Display springt von D-322 auf D-348.
+
+Deine Nummer: D-347.
+
+Eine Frau an Schalter 3 schaut auf. Sie sucht jemanden. Sie sucht D-347.
+
+Sie sucht dich.
 
 ---
 
-## Spieler-Buttons beim Start
+## Die Entscheidung
+
+Drei Dinge gleichzeitig:
+
+1. Der Zettel auf dem Boden, halb unter dem Laptop. Du könntest ihn aufheben.
+2. D-347 — dein Termin. Frau Jütt schaut sich um.
+3. Der Mann auf dem Boden. Er atmet. Er ist nicht bewusstlos — er blinzelt. Aber er bewegt sich nicht.
+
+Was machst du?
+
+---
+
+## Spieler-Buttons
 
 ```
-[ Nein, ich kenne ihn nicht. ]
-[ Ich habe ihn fallen sehen. ]
-[ Ich habe das hier gefunden. (Zettel zeigen) ]
-[ Ich sage nichts. ]
+[ Zettel aufheben ]
+[ Zum Schalter gehen — Termin wahrnehmen ]
+[ Beim Mann bleiben, fragen ob er okay ist ]
+[ Zur Tür am Ende des Ganges gehen ]
 ```
 
 *Oder: freie Texteingabe / Spracheingabe*
@@ -105,13 +129,16 @@ Was sagt Tomas?
 
 ## Spielleiter-Notiz
 
-Diese Szene gibt dem Spieler sofort drei Dinge:
-1. Eine Entscheidung unter Druck (ohne Vorbereitung)
-2. Ein Rätsel ohne Auflösung (der Zettel, die Königin)
-3. Ein moralisches Fundament (Tomas kann nicht lügen — aber was sagt er?)
+Der Zettel enthält eine einzige Zeile, handgeschrieben von Vael Ornstein, in seiner charakteristischen Tinte:
 
-Der weitere Verlauf hängt von dieser ersten Entscheidung ab. Der Guard ist kein Feind und kein Freund. Er ist ein Werkzeug des Systems. Was Tomas jetzt tut, bestimmt, ob dieser Mann ein Verbündeter oder ein Hindernis wird.
+> *„Formular U-0 existiert nicht. Aber es wurde dreimal genehmigt. Frag den Hausmeister."*
 
-Der bewusstlose Mann auf dem Boden ist kein Zufall. Er ist **Fenn Rouch**, Druckergehilfe — und er weiß, wo das Stille Archiv ist.
+Tomas hört es — auch gelesen — als reinen Ton. Keine Lüge. Keine Fiktion.
 
-Aber das erfährt der Spieler erst in Szene drei.
+Der Mann auf dem Boden ist **Rainer Molt**, freier Grafiker, 41. Er hat seit drei Wochen versucht, eine Ummeldung durchzuführen. Sein Fall wurde zwischen drei Abteilungen weitergereicht, die sich gegenseitig zuständig erklärten. Heute war er zum siebten Mal hier.
+
+Er ist in eine kleine Stille Zone geraten. Er kommt heraus. Aber er wird drei Stunden lang nur in Behördenformulierungen sprechen können.
+
+Frau Jütt an Schalter 3 ist die ehrlichste Mitarbeiterin des Gebäudes. Und sie weiß etwas. Sie weiß es nicht, dass sie es weiß.
+
+Der Hausmeister heißt Bolle.

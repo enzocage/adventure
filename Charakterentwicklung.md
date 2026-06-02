@@ -17,7 +17,7 @@ Die KI als Spielleiter verfolgt diese Entwicklung implizit im Spielprotokoll und
 | Erfahrungsstand | Fähigkeit |
 |---|---|
 | **Beginn** | Hört grobe Lügen deutlich, Nuancen werden überhört |
-| **Erste Kämpfe** | Kann Selbstbetrug von bewusster Lüge unterscheiden |
+| **Erste Konfrontationen** | Kann Selbstbetrug von bewusster Lüge unterscheiden |
 | **Mitte des Abenteuers** | Hört die emotionale Ursache hinter einer Lüge (Angst? Gier? Schutz?) |
 | **Spätstadium** | Kann Systemlügen orten — fühlt, wo die Goldene Lüge in der Architektur der Stadt verankert ist |
 | **Kurz vor Finale** | In Extremmomenten: ein einziges Mal die Kraft umkehren — eine Wahrheit so klar aussprechen, dass andere sie physisch spüren |
@@ -71,7 +71,7 @@ Das ist nicht quantifizierbar. Es ist das Wichtigste.
 
 Tomas beginnt das Abenteuer als jemand, der seine Kraft trägt — wie eine Behinderung, wie ein Fluch, wie ein Werkzeug. Was er am Ende des Abenteuers glaubt — **ob Wahrheit die Welt heilen oder zerstören kann** — hängt vollständig vom Spieler ab. Die KI treibt diesen Bogen dramaturgisch voran. Es gibt keine richtige Antwort.
 
-Der Spielleiter fragt an entscheidenden Momenten: *„Was glaubt Tomas jetzt?"*  
+Der Spielleiter fragt an entscheidenden Momenten: *„Was glaubt Tomas jetzt?"*
 Und der Spieler antwortet. Und das verändert, wie Tomas in der nächsten Szene spricht, handelt, klingt.
 
 ---

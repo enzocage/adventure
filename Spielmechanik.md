@@ -1,12 +1,12 @@
-# Spielmechanik: Das Abenteuer von Velundra
+# Spielmechanik: Das Abenteuer in Kaldermünd
 
-**Ein KI-geleitetes Fantasy-Rollenspiel**
+**Ein KI-geleitetes surreales Bürokratie-Rollenspiel**
 
 ---
 
 ## Konzept
 
-Das Spiel ist ein Fantasy-Rollenspiel analog zu *Das Schwarze Auge* — ein Einzelspieler-Erlebnis als **Web-App im Browser**, in dem die KI vollständig die Rolle des Spielleiters übernimmt. Der Spieler verkörpert Tomas Gretsch, Wachsgießer und unfreiwilliger Wahrheitsdetektiv in der Welt Velundra.
+Das Spiel ist ein Rollenspiel analog zu *Das Schwarze Auge* — ein Einzelspieler-Erlebnis als **Web-App im Browser**, in dem die KI vollständig die Rolle des Spielleiters übernimmt. Der Spieler verkörpert Tomas Gretsch, Kerzenmacher und unfreiwilliger Wahrheitsdetektiv in der Stadt Kaldermünd.
 
 Die KI erschafft, erzählt und leitet. Der Spieler handelt, entscheidet und erlebt.
 
@@ -26,7 +26,7 @@ Der Spielleiter:
 - Prüft, ob gewünschte Handlungen **möglich** sind — und bietet Alternativen wenn nicht
 - Würfelt bei ambitionierten Aktionen mit dem **100-seitigen Zufallswürfel**
 - Formuliert das **narrative Ergebnis** des Würfelwurfs vollständig aus
-- Generiert zu jeder neuen Szene ein **Bild** (Egoperspektive via Nanobanana)
+- Generiert zu jeder neuen Szene ein **Bild** (Egoperspektive via Antigravity 2.0)
 - Spielt **Hintergrundmusik** (loop, 10% Lautstärke) passend zur Stimmung
 - Speichert automatisch alle generierten Medien zur Wiederverwendung
 
@@ -41,9 +41,9 @@ Tomas' Kraft ist **immer eingeschaltet**. Der Spielleiter teilt die Wahrnehmung 
 
 > *„Der Händler preist seine Ware an — du hörst das vertraute Kratzen einer kleinen Lüge, harmlos, routiniert."*
 
-> *„Der Guard antwortet dir. Kein Misston. Er glaubt, was er sagt."*
+> *„Der Wachmann antwortet dir. Kein Misston. Er glaubt, was er sagt."*
 
-> *„Die Ratsdame spricht. Ein metallisches Kreischen übertönt fast ihre Worte. Du weißt: Das ist eine konstruierte Lüge, nicht aus Angst, sondern aus Gewohnheit."*
+> *„Die Amtsleiterin erklärt die Bearbeitungszeit. Ein metallisches Kreischen übertönt fast ihre Worte. Du weißt: Das ist eine konstruierte Lüge, nicht aus Angst — aus Gewohnheit."*
 
 Der Spieler braucht keine Aktion, um zu hören. Er hört immer. Das ist Tomas' Welt.
 
@@ -85,7 +85,8 @@ Jede Eingabe ist möglich — Text oder Mikrofon:
 - Kurze Rast: +5 LP
 - Ausschlafen in Sicherheit: +20 LP
 - Gute Mahlzeit: +10 LP
-- Heilmagie oder Trank: variabel
+- Erste Hilfe / kurze Pause an frischer Luft: +8 LP
+- Ibuprofen + Wasser (wenn rechtzeitig): +5 LP
 - Tomas-spezifisch: Eine Stunde ohne eine einzige Lüge (Tiere, kleine Kinder, Katrijn): +15 LP
 
 Charakterentwicklung und LP-Entwicklung: → [Charakterentwicklung.md](Charakterentwicklung.md)
@@ -124,11 +125,11 @@ Wenn Tomas kämpft:
 3. Spielleiter erzählt das vollständige narrative Ergebnis — inkl. LP-Verlust/Gewinn
 
 **Beispiel:**
-> Spieler: *„Ich schlage den Guard mit dem Kerzenständer."*
+> Spieler: *„Ich schlage den Wachmann mit dem Kerzenständer."*
 >
 > Würfelergebnis: **31**
 >
-> Spielleiter: *„Du holst aus — aber der Guard dreht sich rechtzeitig. Der Kerzenständer trifft seine Schulter statt den Kopf. Er taumelt, fluchend. Du hast Zeit — aber er kommt gleich zurück. Du verlierst 8 LP (Gegenschlag streift deinen Arm). Was jetzt?"*
+> Spielleiter: *„Du holst aus — aber der Wachmann dreht sich rechtzeitig. Der Kerzenständer trifft seine Schulter statt den Kopf. Er taumelt, fluchend. Du hast Zeit — aber er kommt gleich zurück. Du verlierst 8 LP (Gegenschlag streift deinen Arm). Was jetzt?"*
 
 Tomas ist kein Kämpfer. Das System reflektiert das: hohe Würfelergebnisse im Kampf sind selten, weil er es schlicht nicht gut kann.
 
@@ -147,11 +148,11 @@ Vollständige Nebenquest-Beschreibungen: → [Nebenquests.md](Nebenquests.md)
 ### Makro: 5 Sessions à 60 Minuten
 
 ```
-Session 1: Die Stille beginnt (Exposition, Spielstart)
-Session 2: Das Netz der Wahrheiten (Ermittlung, erste Verbündete)
-Session 3: Das Archiv unter der Stadt (Antagonist-Enthüllung)
-Session 4: Die Stadt bricht (Eskalation, Nebenquest-Deadline)
-Session 5: Das Wort und die Stille (Finale, drei mögliche Enden)
+Session 1: "D-347"                          (Exposition, Spielstart im KVR)
+Session 2: "Das Amt für unklare Verhältnisse" (Ermittlung, erste Verbündete)
+Session 3: "Untergeschoss –4"               (Antagonist-Enthüllung, Ornsteins Archiv)
+Session 4: "Das System läuft heiß"          (Eskalation, Nebenquest-Deadlines)
+Session 5: "Karte gegen Wort"              (Finale, drei mögliche Enden)
 ```
 
 Vollständiges Session-Design: → [Session_Design.md](Session_Design.md)
@@ -195,14 +196,14 @@ Gespeichert wird automatisch:
 ## Beispiel-Sequenz
 
 **Spielleiter:**
-> *Du stehst am Eingang zur Schmalfassgasse. Der Nebel hängt schwer. Vor dir: deine Werkstatt. Links: eine Gasse, von der ein Lichtschimmer kommt. Du hörst Schritte — und einen schwachen Misston. Wer auch immer da geht, sagt gerade nichts. Aber er ist auf dem Weg zu jemandem, dem er etwas erzählen wird, das nicht ganz stimmt.*
+> *Du stehst vor der Tür zu Untergeschoss –3. Das Neonlicht summt eine Terz zu hoch. Hinter dir: die Treppe zurück. Vor dir: eine Stahltür ohne Beschriftung, einen Spalt offen. Du hörst — nichts. Aber das Nichts hat eine Qualität. Es ist nicht leer. Es wartet.*
 >
-> `[ Werkstatt betreten ]` `[ Zur Gasse gehen ]` `[ Still bleiben und lauschen ]`
+> `[ Tür weiter öffnen ]` `[ Lauschen, ohne zu bewegen ]` `[ Zurück zur Treppe ]`
 
-**Spieler:** *„Ich schleiche zur Gasse und schaue vorsichtig um die Ecke."*
+**Spieler:** *„Ich schleiche durch die Tür und schaue, was dahinter ist."*
 
 **Spielleiter (intern würfelt 34 — Teilmisserfolg):**
-> *Du schleichst los — aber dein Stiefel tritt auf einen losen Stein. Ein Poltern. Die Schritte verstummen. Dann: Stille. Als du um die Ecke schaust: niemand mehr. Nur eine brennende Fackel. Darunter, auf dem Boden: eine zusammengefaltete Karte.*
+> *Du drückst die Tür auf — aber sie quietscht. Laut. In der Stille des Untergeschosses klingt es wie ein Schuss. Du erstarrst. Sekunden vergehen. Dann: Schritte, irgendwo im Dunkel dahinter. Sie kommen nicht näher. Sie entfernen sich. Du bist drin — aber jemand weiß, dass jemand da ist.*
 
 ---
 
@@ -212,7 +213,7 @@ Gespeichert wird automatisch:
 |---|---|
 | **Tomas stirbt** (LP = 0) | Geschichte endet. Kurze Epilog-Sequenz. |
 | **Ornstein überzeugt** | Ende A — die Wahrheit bleibt verborgen |
-| **Kontrollierte Enthüllung** | Ende B — Teilwahrheit, das Reich erschüttert |
+| **Kontrollierte Enthüllung** | Ende B — Teilwahrheit, Kaldermünd erschüttert |
 | **Die Resonanz** | Ende C — Tomas' letzte Kraft, offenes Ende |
 
 Es gibt kein falsches Ende.

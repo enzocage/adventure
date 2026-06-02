@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0C0B0A;
+  --foreground: #E5E5E0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: #0C0B0A;
+  color: #E5E5E0;
+}
+
+/* Custom CSS Keyframes and Effects for Game Atmosphere */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes scanline {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+
+.animate-scanline {
+  animation: scanline 2.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+
+/* Custom scrollbars for the retro theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C0B0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E2C27;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A473E;
+}

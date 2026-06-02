@@ -1,105 +1,122 @@
-# Visualisierungsstil: Velundra Visual Guide
+# Visualisierungsstil: Kaldermünd Visual Guide
 
-**Für die Bildgenerierung via Nanobanana**
+**Für die Bildgenerierung via Antigravity 2.0**
 
 ---
 
 ## Kern-Ästhetik
 
-**Stil:** Barocke Kupferstich-Illustration, animiert ins Dunkel
+**Stil:** Bureaucratic Surrealism — Kafka trifft David Lynch trifft Amtsgebäude
 
-Die Bilder Velundras sollen wirken wie hochdetaillierte Kupferstiche des 17. Jahrhunderts — aber lebendig, atmosphärisch, mit emotionaler Tiefe. Denke an die Druckgrafiken von Rembrandt, die Illustrationen alter Grimoires, die Frontipieces barocker Enzyklopädien — und überführe diese Ästhetik in eine dunkelromantische Spielwelt.
+Die Bilder Kaldermünds sollen wirken wie Fotos aus einem Gebäude, in dem etwas nicht stimmt. Hyper-reale Gegenwart — Neonlicht, Linoleum, Plastikstühle — aber mit einem unsichtbaren Riss in der Oberfläche, durch den etwas leuchtet, das nicht da sein sollte.
+
+Lynch: Die Dinge sind zu normal, um normal zu sein. Ein Flur ist so korrekt, so vollständig Flur, dass er surreal wird.
+Kafka: Die Bürokratie ist nicht böse. Sie ist nur vollständig gleichgültig. Und das ist schlimmer.
 
 ---
 
 ## Farbpalette
 
-| Rolle | Farbe | Hex |
+| Rolle | Farbe | Beschreibung |
 |---|---|---|
-| Primäres Dunkel | Tintenbraun-Schwarz | `#1A120A` |
-| Warmes Licht | Kerzengold | `#D4A42A` |
-| Kälteton | Aschgrau-Blau | `#7A8B96` |
-| Akzentfarbe | Verwittertes Kupfer | `#8B5E3C` |
-| Highlight | Wachsweißcreme | `#F2E9D5` |
-| Gefahr/Magie | Tiefdunkelrot | `#6B1515` |
-| Die Stille | Neutrales Steingrau | `#C4C0BB` |
+| **Primärton** | Institutionsbeige | Die Wände. Immer. |
+| **Licht** | Kaltes Neonweiß | `#E8EFF2` — leicht zu blau, leicht falsch |
+| **Schatten** | Warmgrau mit Gelb | Alter Stoff, alter Boden |
+| **Akzent Magie** | Bernsteingelb / Kerzengold | Tomas' Welt bricht durch |
+| **Akzent Gefahr** | Tiefes Bürokratierot | Stempel, Verbotsschilder, Blut |
+| **Die Stille** | Vollentsättigtes Grau | Farbe fällt aus der Szene heraus |
+| **Tomas' Wahrnehmung** | Reines Blau-Weiß | Momente absoluter Wahrheit |
 
-Bilder tendieren generell zu **niedriger Sättigung** mit einem warmen Ton — außer bei magischen Ereignissen, wo einzelne Farben aufblitzen dürfen.
+**Grundregel:** Alle Farben tendieren zur Entsättigung. Außer in Momenten, wo etwas *wirklich* passiert — dann ein einzelner Farbakzent, der den Rest des Bildes überleuchtet.
 
 ---
 
 ## Beleuchtung
 
-Die primäre Lichtquelle ist fast immer **Kerzenlicht oder Fackel** — warmgelb, aus niedriger Richtung kommend, mit harten Schatten. Tageslicht erscheint gelblich-diffus, als ob es durch alte Fensterscheiben fiele. Mondlicht ist kalt und bläulich.
+**Standard:** Neonröhren, von oben, kaltes Weißlicht. Keine natürlichen Schatten. Alles gleichmäßig ausgeleuchtet — was paradoxerweise unheimlicher ist als Dunkel.
 
-**Wichtig:** Beleuchtung kommt selten von oben. Fast immer seitlich oder von unten — das erzeugt das typische Kupferstich-Drama.
+**Ausnahme 1 — Tomas' Kerzen:** Wenn etwas von ihm stammt, warm und bienenwachsgelb. Anachronistisch im Neon-Kontext. Schön und falsch.
+
+**Ausnahme 2 — Stille Zone:** Kein Licht aus einer erkennbaren Quelle. Gleichmäßiges Graugrün, wie Unterwasser, wie Photokopierpapier.
+
+**Ausnahme 3 — Untergeschosse:** Tiefgelb, Industrielampen, Schatten die von unten kommen statt von oben.
 
 ---
 
 ## Perspektive und Komposition
 
 - Alle Spielbilder in **Ego-Perspektive (First Person View)**
-- Der Spieler sieht, was Tomas sieht — kein Charakter im Vordergrund
-- Tiefenperspektive mit starker Flucht: Gassen, Gewölbe, Treppen — alles zieht ins Dunkel
-- Detailreiche Vordergrundelemente (Textur von Pflastersteinen, Holzmaserung von Türen, Faltenwurf von Stoffen)
-- Mittlerer Hintergrund: die Szene selbst
-- Hintergrund: verschwimmt in Schatten und Nebel
+- Der Spieler sieht, was Tomas sieht
+- **Sehr kurze Brennweite:** Das macht Räume größer als sie sind — Decken zu hoch, Flure zu lang
+- **Symmetrie wird gebrochen:** Fast-symmetrische Kompositionen mit einem Detail, das leicht falsch ist (ein Schild zu weit rechts, eine Pflanze, die zu gerade steht)
+- **Nahaufnahmen als Szenendetails:** Auf Formulare, Stempel, Schilder, Schalterköpfe — die Textur der Bürokratie
 
 ---
 
-## Texturen und Oberflächen
-
-- Stein: verwittert, bemooste Fugen, feuchte Reflexe
-- Holz: gemasert, gerissen, dunkel gebeichtet
-- Metall: angelaufen, mit Reflexen aus Kerzenlicht
-- Stoff: grob gewebt, Falten tief und physisch korrekt
-- Haut: warm, körperlich — nie porzellanartig glatt
-
----
-
-## Typische Szenen und ihre visuelle Umsetzung
+## Typische Szenen
 
 | Szenentyp | Visuelle Stimmung |
 |---|---|
-| Straße bei Nacht | Enge Gasse, Laternen, Nebelfetzen, nasses Pflaster reflektiert Gold |
-| Interieur Werkstatt | Warmes Kerzenlicht, Regale, Werkzeug im Schatten, Wachsduft als Bildelement |
-| Konfrontation | Dramatische Untersicht, harte Schatten, Gesichter im Halbdunkel |
-| Magisches Ereignis | Wie Kupferstich, aber eine Farbe bricht aus dem Schema: reines Blau oder Rot |
-| Die Stille | Alle Farben gedämpft, Konturen leicht unscharf, unheimliche Stille im Bild |
-| Natur / Außen | Schwarz-Weiß-Grafik mit Sepiatönung, enge Bäume, niedriger Horizont |
+| **Wartezone** | Plastikschalenstühle, Neon, Nummernanzeigetafel, zu hohe Decke |
+| **Schaltergespräch** | Milchglas-Trennscheibe, Mikrofon, Formularstapel, Gesicht dahinter |
+| **Korridor normal** | Linoleum, Türen mit Nummern, Lampen die gleichmäßig leuchten — fast |
+| **Korridor anomal** | Identisch, aber der Fluchtpunkt liegt falsch. Der Korridor hört nicht auf. |
+| **Untergeschoss** | Tiefgelb, Aktenregale bis zur Decke, Papierstaub, Türen ohne Griffe |
+| **Stille Zone** | Vollentsättigt, Papier überall, eine Uhr läuft rückwärts, Menschen erstarrt |
+| **Ornsteins Archiv** | Dunkel, Kerzen (Tomas' Kerzen), Karten-Ordnungssystem, Handschrift an Wänden |
+| **Draußen** | Herbst, Beton, Straßenbahn-Haltestellen, alles vollkommen normal — suspekt |
 
 ---
 
-## Nanobanana Prompt-Template
-
-Für jede neue Szene sollte der Prompt folgendem Schema folgen:
+## Antigravity 2.0 Prompt-Template
 
 ```
-[Szene in 2-3 Sätzen]. 
-Style: baroque copper engraving illustration, first-person perspective, 
-candlelight, dark tones, detailed textures, 17th century fantasy atmosphere, 
-velundra world, tomas gretsch POV, cinematic composition, 
-ink and gold color palette, atmospheric fog, dramatic chiaroscuro lighting.
+[Szenenbeschreibung in 2-3 Sätzen].
+Style: bureaucratic surrealism, first-person perspective,
+fluorescent office lighting, institutional beige walls, linoleum floors,
+David Lynch atmosphere, Kafka mundane horror, contemporary German setting,
+hyperreal detail, slight color desaturation, uncanny normality,
+cinematic composition, subtle wrongness.
+```
+
+**Beispiel-Prompts:**
+
+*Wartezone:*
+```
+A waiting room in a German administrative office, plastic chairs in rows,
+a number display showing impossible digits, a rubber plant in the corner.
+Style: bureaucratic surrealism, first-person, fluorescent lighting,
+institutional beige, David Lynch atmosphere, uncanny normality.
+```
+
+*Korridor anomal:*
+```
+A corridor in a municipal building that extends further than the building allows,
+identical doors on both sides, fluorescent lights receding into darkness.
+Style: bureaucratic surrealism, first-person, wrong perspective,
+Kafka architecture, David Lynch lighting, institutional horror.
 ```
 
 ---
 
 ## Was NICHT in den Stil gehört
 
-- Anime oder Manga-Ästhetik
-- Hellbunte Fantasy-Farben
-- Moderne Architektur oder Technologie
-- Glatte, digitale Texturen ohne Alterung
-- Überbelichtete Szenen (kein Sonnenschein-Idyll)
-- Cartoon-Proportionen
+- Fantasy-Ästhetik (keine Rüstungen, keine Drachen, keine Runen)
+- Übermäßige Gore oder expliziter Horror
+- Computerspiel-UI-Ästhetik im Bild
+- Warme, einladende Farbtöne als Grundstimmung
+- Sonnenlicht als Hauptlichtquelle (außer als beunruhigendes Fremdkörper-Element)
 
 ---
 
-## Musikstil (Referenz für Atmosphäre-Bilder)
+## Musikstil
 
-Wenn Bilder mit Musikvorschlägen gekoppelt werden:
-- **Stadtszenen:** Cembalo, Laute, leise Straßengeräusche
-- **Gefahr:** Tiefe Streicher, unregelmäßige Rhythmen
-- **Die Stille:** Keine Musik — nur minimale Ambience
-- **Magie:** Gläserne Harmonika, reiner Ton über dunklem Boden
-- **Triumph/Erkenntnis:** Orgel, einsame Stimme
+| Situation | Klang |
+|---|---|
+| **Wartezone / Normal** | Leises HVAC-Rauschen, entferntes Tastaturklicken, Neonlicht-Summen |
+| **Korridor / Suche** | Tieffrequenter Drone, aperiodisch, leicht mechanisch |
+| **Stille Zone** | Absolutes Minimum — nur ein sehr leiser, unhörbarer Ton an der Grenze der Wahrnehmung |
+| **Ornstein / Archiv** | Klavier, einzelne Noten, kein Rhythmus — Angelo Badalamenti-artig |
+| **Gefahr / Verfolgung** | Industrielle Perkussion, unterbrochener Rhythmus |
+| **Wahrheitsmoment** | Reiner Sinuston, einmal, kurz — dann Stille |
+| **Draußen / Stadt** | Straßenbahn, Wind, normale Stadtgeräusche — die unheimlichste aller Optionen |

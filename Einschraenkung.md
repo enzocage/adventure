@@ -50,3 +50,13 @@ Er ist ein Spiegel in einer Welt aus Masken.
 Tomas hasst seine Einschränkung nicht. Er hat sie akzeptiert — fast wie ein Mönch sein Gelübde. Was ihn quält, ist nicht die Unfähigkeit zu lügen, sondern die Konsequenzen seiner Wahrheit für andere. Wenn er jemanden mit der Wahrheit verletzt, ist der Schmerz sein. Er trägt ihn mit sich.
 
 Er fragt sich manchmal, ob die Kraft und die Einschränkung von derselben Quelle stammen — und ob er, würde er lügen lernen, auch aufhören würde zu hören.
+
+---
+
+## Kaldermünd-Kontext
+
+In einer Welt, in der das gesamte System auf einer gepflegten Lüge steht, ist ein Mensch, der nicht lügen kann, eine strukturelle Bedrohung. Nicht weil er laut ist — sondern weil er existiert. Seine bloße Anwesenheit in einem Gespräch macht bestimmte Aussagen unmöglich.
+
+Formulare stellen ihm keine Probleme. Formulare lügen nicht — sie sind nur ungenau. Das ist etwas anderes.
+
+Das Paradoxon in Kaldermünd: Das KVR braucht manchmal die Wahrheit, um zu funktionieren. Und Tomas ist die einzige Person im Gebäude, die sie immer liefern kann — und muss. Auch wenn niemand danach gefragt hat.

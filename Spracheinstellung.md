@@ -17,10 +17,10 @@ Die Sprachwahl erfolgt beim ersten Start und kann jederzeit in den Einstellungen
 | Spielleiter-Narration | Deutsch | English |
 | Buttons | z.B. "Türe öffnen" | "Open the door" |
 | UI-Labels (LP, Inventar etc.) | Deutsch | English |
-| Bild-Prompts | Englisch (immer) — Nanobanana ist EN-optimiert | English |
+| Bild-Prompts | Englisch (immer) — Antigravity 2.0 ist EN-optimiert | English |
 | Musik-Prompts | Englisch (immer) | English |
 | Fehler- und Systemmeldungen | Deutsch | English |
-| Charakternamen & Orte | Velundranisch (unveränderlich) | Velundranisch (unveränderlich) |
+| Charakternamen & Orte | Spielwelt-Eigennamen (unveränderlich) | Spielwelt-Eigennamen (unveränderlich) |
 
 *Charakternamen und Ortsnamen bleiben in beiden Sprachen identisch — sie gehören zur Welt, nicht zur Interface-Sprache.*
 
@@ -44,11 +44,11 @@ const systemPrompt = language === 'de'
 
 ## Spielleiter-Prompt Sprachparameter
 
-Jeder API-Call an Claude enthält:
+Jeder API-Call an Gemini enthält:
 
 ```
 SPRACHE: Deutsch
-Antworte ausschließlich auf Deutsch. 
+Antworte ausschließlich auf Deutsch.
 Alle Charakterdialoge, Beschreibungen und Narration auf Deutsch.
 ```
 
@@ -64,7 +64,7 @@ All character dialogue, descriptions and narration in English.
 
 ## Kulturelle Anpassungen
 
-**Deutsch:** Förmlichkeit in Charakterdialogen — NPCs siezen Tomas bis Vertrauen aufgebaut ist. Das erhöht den Barockcharakter der Welt.
+**Deutsch:** Förmlichkeit in Charakterdialogen — NPCs siezen Tomas bis Vertrauen aufgebaut ist. Das erhöht den bürokratischen Charakter der Spielwelt.
 
 **English:** NPCs tend toward slightly more direct address — the world's formality is conveyed through vocabulary and sentence structure rather than pronoun choice.
 

@@ -8,10 +8,10 @@
 |---|---|
 | **Vollständiger Name** | Tomas Adalbert Gretsch |
 | **Alter** | 34 Jahre |
-| **Geburtsort** | Niederkalm, ein Dorf im Süden des Reichs Velundra |
-| **Wohnort** | Kaldermark, Stadtbezirk Kerzenviertel (Handwerksbezirk) |
-| **Beruf** | Wachsgießer und Kerzenmeister (Zunft der Lichthandwerker) |
-| **Soziale Position** | Unteres Bürgertum, Zunftmitglied, finanziell knapp aber stabil |
+| **Geburtsort** | Niederkalm (kleiner Vorort, S-Bahn-Endstation) |
+| **Wohnort** | Kaldermünd, Schmalfassgasse 11 — direkt hinter dem Verwaltungszentrum |
+| **Beruf** | Kerzenmacher und Inhaber von *Kerzen Gretsch* |
+| **Soziale Position** | Kleinstgewerbe, Einzelkämpfer, finanziell knapp aber stabil |
 | **Superkraft** | Das Lügengehör |
 | **Einschränkung** | Die Zunge des Zeugen |
 
@@ -19,55 +19,73 @@
 
 ## Äußeres Erscheinungsbild
 
-Tomas ist mittelgroß, mit den breiten Schultern und leicht verbrannten Unterarmen eines Handwerkers. Sein Haar ist dunkelbraun, immer etwas zerwühlt, von Wachsrückständen gelegentlich streifig. Seine Augen sind auffällig: ungewöhnlich hellgrau, ruhig, aufmerksam — die Augen eines Mannes, der mehr wahrnimmt als er sagt. Er kleidet sich praktisch, in dunklem Leinen und Leder, meidet festliche Veranstaltungen wenn möglich, weil der Lärm der Lügen in Gesellschaft ihn erschöpft.
+Mittelgroß, mit den leicht verbrannten Unterarmen eines Handwerkers. Immer in dunklem Fleece oder Arbeitshemd. Haare dunkelbraun, fast immer etwas zerwühlt, manchmal mit einer kleinen Wachsspur an der Schläfe. Augen: ungewöhnlich hellgrau. Ruhig. Zu aufmerksam für jemanden in einer Warteschlange.
 
-Ein kleines Detail: Er trägt immer Wachsreste unter den Fingernägeln. Kein Mann, der sich viel aus dem Äußeren macht.
+Er trägt einen abgenutzten Rucksack, immer dabei, in dem sich befinden: ein Notizbuch, ein Stift, ein Feuerzeug, eine kleine Kerze (alte Gewohnheit), sein Personalausweis und mindestens drei Formulare in irgendeinem Bearbeitungsstand.
+
+---
+
+## Beruf und Lebensmittelpunkt
+
+**Kerzen Gretsch** — Schmalfassgasse 11, Kaldermünd, direkt in der Lücke zwischen dem Verwaltungszentrum und einem türkischen Imbiss. Erdgeschoss: Werkstatt und kleiner Laden. Erster Stock: seine Wohnung.
+
+Er macht Kerzen von Hand. Hochwertige Bienenwachskerzen, Duftwachs, gelegentlich Votivkerzen für die Kirche am Ende der Straße. Er beliefert auch die Rezeption des KVR — eine Stelle, die im städtischen Haushalt unter "Repräsentationsausgaben / Raumgestaltung" eingetragen ist, und die er mit einem jährlichen Rahmenvertrag besetzt. Dieser Vertrag gibt ihm einen Hausausweis. Er kennt das Gebäude gut. Er kennt die Mitarbeiter vom Sehen.
+
+Kein Mensch beachtet den Kerzenmann.
+
+Das ist sein größter strategischer Vorteil.
 
 ---
 
 ## Geschichte
 
-**Kindheit und Jugend:**
-Tomas wurde als zweiter Sohn eines Schmieds in Niederkalm geboren. Als er etwa acht Jahre alt war, begann er zu bemerken, dass er Töne hörte, die andere nicht hörten. Er hielt es zunächst für einen Defekt — vielleicht eine Krankheit der Ohren. Mit zwölf verstand er den Zusammenhang: Die Töne traten auf, wenn Menschen sagten, was nicht stimmte.
+**Kindheit:**
+Niederkalm. Sein Vater war Elektriker bei der Stadtwerke. Seine Mutter arbeitete Teilzeit im Ordnungsamt — Tomas verbrachte als Kind Nachmittage in Wartezimmern. Er mochte sie. Es war ruhig dort. Die Leute sagten wenig. Und wenn sie sprachen, hörte er, was wahr war und was nicht.
 
-Er sagte es einmal seiner Mutter. Sie lachte und nannte es Einbildung. Er hörte keinen Misston in ihrer Antwort. Sie glaubte es wirklich.
+Er dachte, das machten alle.
 
-Er sagte es nie wieder jemandem.
+**Mit zehn Jahren:** Er merkte, dass die Lehrerin log, als sie sagte, seine Zeichnung sei sehr schön. Der Ton war eindeutig. Er sagte ihr das. Er wurde nach Hause geschickt.
 
-**Lehrjahre:**
-Mit sechzehn wurde er zu einem Wachsgießer in Kaldermark in die Lehre gegeben. Der alte Meister Hurn war ein ruhiger, präziser Mann — jemand, der selten lügt, weil er selten spricht. Tomas liebte diese Werkstatt. Die Stille des Wachses. Der geordnete Rhythmus der Arbeit. Und ein Meister, dessen Anwesenheit kein Kreischen erzeugte.
+**Mit sechzehn:** Er versuchte, einem Freund zu sagen, er finde seine Freundin nicht sympathisch. Er meinte es freundlich. Er verlor den Freund. Er lernte: Schweigen ist keine Lüge.
 
-**Geselle und Meister:**
-Mit 24 legte er die Meisterprüfung ab. Mit 27 übernahm er nach Hurns Tod den Betrieb. Seitdem führt er die Werkstatt im Kerzenviertel, beliefert Kirchen, Klöster, Ratsherren und reiche Kaufleute mit Kerzen und Votivlichtern.
+**Mit zwanzig:** Er machte eine Ausbildung als Wachszieher bei einem alten Meister in der Innenstadt. Die Stille der Werkstatt. Das Feuer. Die Genauigkeit. Er blieb.
+
+**Mit achtundzwanzig:** Er übernahm den Laden. Neue Miete, altes Werkzeug, gleiche Adresse.
 
 ---
 
 ## Persönlichkeit
 
-Tomas ist ein stiller Mensch — aber kein scheuer. Er wählt seine Worte, weil er sie nicht verbiegen kann. Er hört genau zu, weil er mehr hört als andere. Er ist geduldig, weil er weiß, dass die Wahrheit immer zu hören ist, wenn man wartet.
+Tomas ist still ohne schüchtern zu sein. Er wählt Worte nicht aus Vorsicht, sondern weil er keine anderen benutzen kann. Er hat Humor — trocken, präzise, gelegentlich so direkt, dass die andere Person kurz stillsteht.
 
-Er hat Humor. Trocken, präzise, manchmal beißend. Er sagt Dinge, die andere denken aber nicht sagen würden — und er weiß, dass diese Momente ihn isolieren. Er hat gelernt, damit zu leben.
+Er hasst Wartezimmer. Nicht wegen der Warterei — die stört ihn nicht. Sondern wegen der Dichte der kleinen Lügen, die Menschen in Wartezimmern sprechen: die Ausreden am Telefon, die Angaben auf den Formularen, die höflichen Versicherungen. Es ist laut für ihn. Er bringt immer Ohrstöpsel mit. Das hilft nicht wirklich, aber es ist Ritual.
 
-Was ihn antreibt ist kein Heroismus. Es ist Unerträglichkeit. Er kann nicht gleichgültig bleiben, wenn er hört, was in der Welt wirklich gesagt wird. Und er kann nicht so tun als ob, wenn das Tun so offensichtlich falsch ist.
+Was ihn antreibt: keine Heldenmission. Unerträglichkeit. Er kann nicht danebenstehen, wenn er hört, was wirklich gesagt wird. Das war immer so. Das wird nicht besser.
 
 ---
 
 ## Beziehungen
 
-**Katrijn Voss:** Besitzerin der Schreibstube nebenan. Eine der wenigen Menschen, mit denen Tomas echten Austausch pflegt. Sie lügt selten und dann nur um andere zu schützen — Tomas versteht diesen Unterschied und schätzt ihn.
+**Katrijn Voss:** Inhaberin der Schreibstube direkt daneben (Copyshop + Notarsekretariat). Lügt fast nie — eine Seltenheit. Sie weiß nicht, dass Tomas das weiß. Sie wissen beide: sie reden gerne miteinander. Das Warum haben sie nie besprochen.
 
-**Ratsschreiber Olb:** Tomas' wichtigster Auftraggeber. Ein Mann, der jeden Satz dreimal prüft. In seiner Gegenwart ist es für Tomas außergewöhnlich still — aber auf eine Art, die ihn beunruhigt. Jemand, der nie lügt, hat entweder sehr reine Motive oder sehr präzise gelernt, wie man die Wahrheit als Waffe einsetzt.
+**Sachbearbeiterin Frau Jütt (KVR, Schalter 3):** Kennt Tomas vom Jahresvertrag. Korrekt, freundlich, professionell. Tomas hört: Sie glaubt wirklich an die Formulare. Das macht sie zu einer der ehrlichsten Menschen im Gebäude.
 
-**Gilde der Lichthandwerker:** Seine Zunft. Er gilt als schwieriger Kollege, ehrlich bis zur Peinlichkeit, aber technisch einer der besten Meister der Stadt. Sie respektieren ihn. Mögen tun ihn die meisten nicht.
+**Hausmeister Bolle:** Den gibt es überall. Er weiß, wo die Türen sind, die nicht auf dem Plan stehen. Er hat noch nie darüber gesprochen. Er wartet darauf, dass jemand fragt.
 
 ---
 
-## Lebensmittelpunkt
+## Tomas und das KVR
 
-Die Kerzenwerkstatt in der Schmalfassgasse 11, Kerzenviertel, Kaldermark. Erdgeschoss: Werkstatt, Verkaufsraum. Erster Stock: Wohnung. Klein, funktional, vollständig mit Wachsduft durchtränkt. Wenige Bücher, viele Werkzeuge. Ein Fenster zur Straße, das er oft offenhält — er hört die Stadt, auch wenn er nicht hinaussieht.
+Tomas hat in den letzten fünf Jahren bemerkt, dass sich etwas verändert im Gebäude. Die Korridore, die sich gefühlt verlängern. Die Nummern, die nicht stimmen. Das Summen, das leicht zu hoch ist.
+
+Und: er hört manchmal, wenn er an den unteren Treppen steht, etwas aus den Stockwerken unter der Erde. Keine Stimmen. Keinen Lärm. Das Gegenteil: eine Abwesenheit von Frequenz, die klingt wie die allerhöchste aller Lügen. Zu groß, um sie zu orten. Zu alt.
+
+Er hat noch nie nach unten gegangen.
 
 ---
 
 ## Tomas über sich selbst
 
-> *„Ich mache Kerzen. Dinge, die brennen und dabei ehrlich leuchten, solange sie halten. Danach sind sie weg. Das gefällt mir."*
+> *„Ich mache Kerzen. Die brennen ehrlich, solange sie halten — und wenn sie weg sind, sind sie weg. Ich finde das beruhigend."*
+
+> *„Das Verwaltungszentrum riecht nach Bürokratie. Bürokratie riecht nach warmem Papier und altem Neonlicht. Und nach Angst, die lang genug da war, um keine Angst mehr zu sein — nur noch Gewohnheit."*

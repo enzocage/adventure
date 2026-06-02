@@ -27,35 +27,35 @@ Eine 60-Minuten-Session besteht aus **5–7 Szenen**:
 
 Das Gesamtabenteuer umfasst **5 Sessions** à 60 Minuten (= ~5 Stunden Spielzeit):
 
-### Session 1: "Die Stille beginnt"
-- Spielstart am Markt
-- Tomas wird in den Fall hineingezogen (Fenn Rouch)
-- Erste Begegnung mit einer Stille-Zone
-- Ende: Tomas hat den Zettel, kennt keine Antworten, der Guard schaut ihm nach
+### Session 1: "D-347"
+- Spielstart im KVR-Wartezimmer
+- Tomas wird in den Fall hineingezogen (Rainer Molt, der Zettel, die unmögliche Tür)
+- Erste bewusste Wahrnehmung der Goldenen Lüge als physischer Druck
+- Ende: Tomas hat den Zettel, kennt keine Antworten, Frau Jütt schaut ihm nach
 
-### Session 2: "Das Netz der Wahrheiten"
-- Ermittlung im Kerzenviertel
-- Erste Begegnung mit Katrijn als echter Verbündeten
-- Möglichkeit: Nebenquest 1 (Die weinende Witwe) oder 2 (Der stumme Zeuge)
-- Ende: Tomas findet den Weg zur Druckerei
+### Session 2: "Das Amt für unklare Verhältnisse"
+- Ermittlung im Gebäude — Tomas nutzt seinen Hausausweis
+- Erste echte Verbindung zu Hausmeister Bolle
+- Möglichkeit: Nebenquest 1 (Falscher Bescheid / Paula Kern) oder 2 (Beni / Der stumme Zeuge)
+- Ende: Tomas findet den Weg zu den unteren Stockwerken
 
-### Session 3: "Das Archiv unter der Stadt"
-- Tomas findet das Stille Archiv
-- Erste indirekte Konfrontation mit Ornstein (durch Schriften, nicht Person)
-- Entscheidung: Was tut er mit dem, was er weiß?
+### Session 3: "Untergeschoss –4"
+- Tomas findet Ornsteins Archiv
+- Erste indirekte Konfrontation durch handgeschriebene Karten, die Ornstein hinterlassen hat
+- Entscheidung: Was tut Tomas mit dem, was er hier sieht?
 - Ende: Die Stille Maschine wird aktivierbar — 72 Stunden
 
-### Session 4: "Die Stadt bricht"
-- Stille Zonen eskalieren
-- Ornstein setzt Boten ein
-- Nebenquests 3 und 4 haben Verfallsdaten
-- Moralischer Wendepunkt: Ornstein ist nicht falsch. Er hat nicht unrecht. Und dennoch.
+### Session 4: "Das System läuft heiß"
+- Stille Zonen eskalieren im ganzen Gebäude
+- Ornstein setzt seinen Boten-Plan in Gang
+- Nebenquests 3 (Formular U-0) und 4 (Kaffeemaschine) haben Verfallsdaten
+- Moralischer Wendepunkt: Ornstein hat recht. Das System dient sich selbst. Und dennoch.
 - Ende: Tomas weiß, wo Ornstein ist
 
-### Session 5: "Das Wort und die Stille"
-- Finalkonfrontation im Archiv
-- Ornstein und Tomas, allein
-- Kein Kampf — ein Gespräch. Würfel und Entscheidungen bestimmen den Ausgang
+### Session 5: "Karte gegen Wort"
+- Finalkonfrontation in Untergeschoss –4
+- Ornstein und Tomas, allein, zwischen Millionen nicht verarbeiteter Anträge
+- Kein Kampf — ein Gespräch, auf Karten und in Worten
 - Drei mögliche Enden (je nach Entscheidungen des Spielers)
 
 ---
@@ -63,15 +63,15 @@ Das Gesamtabenteuer umfasst **5 Sessions** à 60 Minuten (= ~5 Stunden Spielzeit
 ## Drei mögliche Enden
 
 ### Ende A: Das Schweigen siegt
-Tomas überzeugt Ornstein, die Maschine nicht zu aktivieren. Die Wahrheiten bleiben verborgen. Velundra bleibt, wie es ist. Tomas trägt das Wissen allein.
+Tomas überzeugt Ornstein, die Maschine nicht zu aktivieren. Die Wahrheiten bleiben verborgen. Kaldermünd bleibt, wie es ist. Tomas trägt das Wissen allein.
 *Epilog: Bitter, still, realistisch.*
 
 ### Ende B: Die Wahrheit bricht
-Ornstein aktiviert die Maschine — aber Tomas kontrolliert, was veröffentlicht wird. Nur die Goldene Lüge. Nicht alle Geheimnisse. Teilwahrheit. Das Reich erschüttert.
+Ornstein aktiviert die Maschine — aber Tomas kontrolliert, was veröffentlicht wird. Nur die Goldene Lüge. Nicht alle Geheimnisse. Teilwahrheit. Kaldermünd erschüttert.
 *Epilog: Chaotisch, aber mit Hoffnung.*
 
 ### Ende C: Die Resonanz
-Tomas nutzt seine letzte verbleibende Kraft (aus Charakterentwicklung) — spricht eine Wahrheit so klar, dass sie das gesamte Archiv resoniert. Kein Text, kein Druck — ein Klang. Alle in Kaldermark hören für drei Sekunden, was wahr ist.
+Tomas nutzt seine letzte verbleibende Kraft (aus Charakterentwicklung) — spricht eine Wahrheit so klar, dass sie das gesamte Archiv resoniert. Kein Text, kein Druck — ein Klang. Alle in Kaldermünd hören für drei Sekunden, was wahr ist.
 *Epilog: Offen. Niemand weiß, was jetzt kommt.*
 
 ---
