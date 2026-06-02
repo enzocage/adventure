@@ -1,5 +1,11 @@
 # 🏛️ Kaldermünd — Ein surreales Bürokratie-Rollenspiel
 
+<div align="center">
+  <img src="public/all.gif" width="100%" alt="Kaldermünd RPG Banner" />
+</div>
+
+<br />
+
 **Kaldermünd** ist ein interaktives Web-Rollenspiel (RPG) im Stil eines lynchianischen, kafkaesken Bürokratie-Horrors. Du schlüpfst in die Rolle von **Tomas Gretsch**, einem kleinen Beamten in der gigantischen „Behörde für Restrungen & Statistik“ (KVR) der Stadt Kaldermünd. Konfrontiert mit der drohenden Aktivierung der unheilvollen *Stillen Maschine* und deiner eigenen gefährlichen Gabe, Lügen physisch zu spüren (Lügengehör), versuchst du, die bürokratischen Geheimnisse der Stadt zu entschlüsseln.
 
 Das Spiel nutzt modernste Generative AI (Gemini 2.5 Pro, Grok TTS, Imagen 4.0 & Lyria 3) für eine vollständig dynamische, sprachgesteuerte und visuelle Generierung von Geschichten, Bildern und Soundtracks in Echtzeit.
