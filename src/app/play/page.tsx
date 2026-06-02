@@ -19,7 +19,7 @@ function PlayContent() {
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [narrationText, setNarrationText] = useState('');
   const [buttons, setButtons] = useState<string[]>([]);
-  const [musicTrack, setMusicTrack] = useState<'normal' | 'drone' | 'silent' | 'piano' | 'percussion' | 'city' | null>(null);
+  const [musicTrack, setMusicTrack] = useState<'normal' | 'drone' | 'silent' | 'piano' | null>(null);
   const [imagePrompt, setImagePrompt] = useState<string | null>(null);
 
   // Dice rolling state
@@ -330,7 +330,7 @@ function PlayContent() {
                 <span className="text-stone-300">{gameState.status.time}</span>
               </div>
               
-              <div className="flex items-center gap-1.5 px-2 py-0.5 border border-stone-850 bg-stone-950/40 rounded-sm select-none">
+              <div className="relative group flex items-center gap-1.5 px-2 py-0.5 border border-stone-850 bg-stone-950/40 rounded-sm select-none cursor-help">
                 <span className="font-semibold text-stone-600">TOKENS:</span>
                 <span className="text-amber-500 font-bold">
                   {(gameState.status.totalInputTokens || 0) + (gameState.status.totalOutputTokens || 0)}
@@ -340,6 +340,111 @@ function PlayContent() {
                 <span className="text-emerald-500 font-bold text-[9px]">
                   ${(gameState.status.totalCost || 0).toFixed(4)}
                 </span>
+
+                {/* Detailliertes Tooltip für Token- und Kostenaufschlüsselung */}
+                <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-50 w-72 p-3.5 bg-stone-950/95 border border-stone-800 text-stone-300 rounded-sm shadow-2xl font-mono text-[9px] backdrop-blur-sm max-h-[80vh] overflow-y-auto">
+                  <div className="text-amber-500 font-bold border-b border-stone-850 pb-1.5 mb-2.5 uppercase text-center tracking-wider text-[10px]">
+                    {sprache === 'de' ? 'Kosten-Aufschlüsselung' : 'Cost Breakdown'}
+                  </div>
+                  
+                  <div className="space-y-2.5">
+                    {/* Spielleiter text */}
+                    <div>
+                      <div className="flex justify-between font-bold text-stone-200 uppercase tracking-wide text-[8px] text-amber-500/80 mb-0.5">
+                        <span>1. Spielleiter (Gemini 2.5 Flash)</span>
+                      </div>
+                      <div className="flex justify-between text-stone-400 pl-2">
+                        <span>Tokens (In/Out):</span>
+                        <span>
+                          {gameState.status.statsSpielleiterInputTokens || 0} / {gameState.status.statsSpielleiterOutputTokens || 0}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-emerald-600 font-semibold pl-2">
+                        <span>Kosten / Cost:</span>
+                        <span>${(gameState.status.statsSpielleiterCost || 0).toFixed(6)}</span>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-stone-850/30 my-1" />
+
+                    {/* Spracheingabe */}
+                    <div>
+                      <div className="flex justify-between font-bold text-stone-200 uppercase tracking-wide text-[8px] text-amber-500/80 mb-0.5">
+                        <span>2. Spracheingabe (Gemini 2.5 Flash)</span>
+                      </div>
+                      <div className="flex justify-between text-stone-400 pl-2">
+                        <span>Tokens (In/Out):</span>
+                        <span>
+                          {gameState.status.statsTranskriptionInputTokens || 0} / {gameState.status.statsTranskriptionOutputTokens || 0}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-emerald-600 font-semibold pl-2">
+                        <span>Kosten / Cost:</span>
+                        <span>${(gameState.status.statsTranskriptionCost || 0).toFixed(6)}</span>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-stone-850/30 my-1" />
+
+                    {/* Szenengenerator */}
+                    <div>
+                      <div className="flex justify-between font-bold text-stone-200 uppercase tracking-wide text-[8px] text-amber-500/80 mb-0.5">
+                        <span>3. Szenengenerator (Gemini 2.5 Flash)</span>
+                      </div>
+                      <div className="flex justify-between text-stone-400 pl-2">
+                        <span>Tokens (In/Out):</span>
+                        <span>
+                          {gameState.status.statsSzenenGenInputTokens || 0} / {gameState.status.statsSzenenGenOutputTokens || 0}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-emerald-600 font-semibold pl-2">
+                        <span>Kosten / Cost:</span>
+                        <span>${(gameState.status.statsSzenenGenCost || 0).toFixed(6)}</span>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-stone-850/30 my-1" />
+
+                    {/* Bilder */}
+                    <div>
+                      <div className="flex justify-between font-bold text-stone-200 uppercase tracking-wide text-[8px] text-amber-500/80 mb-0.5">
+                        <span>4. Bild-Generierung (Imagen 4.0)</span>
+                      </div>
+                      <div className="flex justify-between text-stone-400 pl-2">
+                        <span>Bilder-Anzahl / Count:</span>
+                        <span>{gameState.status.statsBilderCount || 0}</span>
+                      </div>
+                      <div className="flex justify-between text-emerald-600 font-semibold pl-2">
+                        <span>Kosten / Cost:</span>
+                        <span>${(gameState.status.statsBilderCost || 0).toFixed(4)}</span>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-stone-850/30 my-1" />
+
+                    {/* Musik */}
+                    <div>
+                      <div className="flex justify-between font-bold text-stone-200 uppercase tracking-wide text-[8px] text-amber-500/80 mb-0.5">
+                        <span>5. Musik (Ambient Loops)</span>
+                      </div>
+                      <div className="flex justify-between text-stone-400 pl-2">
+                        <span>Vibe-Wechsel / Changes:</span>
+                        <span>{gameState.status.statsMusikCount || 0}</span>
+                      </div>
+                      <div className="flex justify-between text-emerald-600 font-semibold pl-2">
+                        <span>Kosten / Cost:</span>
+                        <span>$0.0000</span>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-stone-800 pt-2 mt-2 flex justify-between font-bold text-stone-100 text-[10px] border-double border-t-2">
+                      <span>Gesamt / Total:</span>
+                      <span className="text-emerald-500">
+                        ${(gameState.status.totalCost || 0).toFixed(6)}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </>
           )}
@@ -382,7 +487,15 @@ function PlayContent() {
         {/* Right Column: Other gameplay elements (Takes 1/3 width) */}
         <div className="w-full lg:w-1/3 flex flex-col justify-between overflow-hidden lg:h-full gap-3">
           
-          {/* Action Block: Handlungsbuttons & Texteingabe (or Dice rolling) */}
+          {/* 1. Spielleiter Narration Text Box (Takes remaining vertical space in right column) */}
+          <div className="flex-grow w-full overflow-hidden flex flex-col min-h-[15vh]">
+            <NarratorText 
+              text={narrationText} 
+              className="flex-grow border border-stone-900 bg-stone-950/80 p-3 md:p-4 font-mono text-[11px] md:text-xs leading-relaxed text-stone-300 shadow-inner rounded-sm cursor-pointer select-none overflow-y-auto"
+            />
+          </div>
+
+          {/* 2. Action Block: Handlungsbuttons & Texteingabe (or Dice rolling) */}
           <div className="flex-shrink-0 w-full border border-stone-900/80 bg-stone-950/90 p-2.5 md:p-3 rounded-sm shadow-md relative">
             <div className="text-[9px] text-stone-650 tracking-widest mb-1.5 flex items-center gap-1">
               <Shield size={9} />
@@ -463,18 +576,12 @@ function PlayContent() {
                   <TextInput 
                     onSubmit={(txt) => submitAction(txt)} 
                     disabled={isLoading} 
+                    sessionId={sessionId}
+                    onTranscriptionComplete={(newState) => setGameState(newState)}
                   />
                 </div>
               </div>
             )}
-          </div>
-
-          {/* 3. Spielleiter Narration Text Box (Takes remaining vertical space in right column) */}
-          <div className="flex-grow w-full overflow-hidden flex flex-col min-h-[15vh]">
-            <NarratorText 
-              text={narrationText} 
-              className="flex-grow border border-stone-900 bg-stone-950/80 p-3 md:p-4 font-mono text-[11px] md:text-xs leading-relaxed text-stone-300 shadow-inner rounded-sm cursor-pointer select-none overflow-y-auto"
-            />
           </div>
 
         </div>

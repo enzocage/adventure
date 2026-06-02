@@ -7,7 +7,7 @@ import {
   GameState,
   PlayerStatus,
 } from '@/lib/saveSystem';
-import { queryGameMaster } from '@/lib/gemini';
+import { queryGameMaster, generateVisualScenePrompt } from '@/lib/gemini';
 
 export async function GET() {
   try {
@@ -61,13 +61,45 @@ export async function POST(request: Request) {
       // Call Game Master via Gemini
       const { response: gmResponse, usage } = await queryGameMaster(gameState, playerAction, diceResult);
 
+      // Call visual scene generator model if a scene shift is flagged
+      let scenePromptResult = null;
+      if (gmResponse.neue_szene) {
+        scenePromptResult = await generateVisualScenePrompt(
+          gameState.protokoll,
+          gmResponse.speichern.neuer_ort || gameState.status.location,
+          gmResponse.narration,
+          playerAction
+        );
+        gmResponse.bild_prompt = scenePromptResult.prompt;
+      }
+
       // If a dice roll is required, save intermediate token statistics and respond to client
       if (gmResponse.wuerfel_noetig) {
+        const imageGenerated = !!gmResponse.bild_prompt;
+        const imageCost = imageGenerated ? 0.03 : 0;
+        
+        const sceneGenInput = scenePromptResult ? scenePromptResult.usage.inputTokens : 0;
+        const sceneGenOutput = scenePromptResult ? scenePromptResult.usage.outputTokens : 0;
+        const sceneGenCost = scenePromptResult ? scenePromptResult.usage.costUsd : 0;
+
         const intermediateStatus: PlayerStatus = {
           ...gameState.status,
-          totalInputTokens: (gameState.status.totalInputTokens || 0) + usage.inputTokens,
-          totalOutputTokens: (gameState.status.totalOutputTokens || 0) + usage.outputTokens,
-          totalCost: (gameState.status.totalCost || 0) + usage.costUsd,
+          totalInputTokens: (gameState.status.totalInputTokens || 0) + usage.inputTokens + sceneGenInput,
+          totalOutputTokens: (gameState.status.totalOutputTokens || 0) + usage.outputTokens + sceneGenOutput,
+          statsSpielleiterInputTokens: (gameState.status.statsSpielleiterInputTokens || 0) + usage.inputTokens,
+          statsSpielleiterOutputTokens: (gameState.status.statsSpielleiterOutputTokens || 0) + usage.outputTokens,
+          statsSpielleiterCost: (gameState.status.statsSpielleiterCost || 0) + usage.costUsd,
+          statsTranskriptionInputTokens: gameState.status.statsTranskriptionInputTokens || 0,
+          statsTranskriptionOutputTokens: gameState.status.statsTranskriptionOutputTokens || 0,
+          statsTranskriptionCost: gameState.status.statsTranskriptionCost || 0,
+          statsSzenenGenInputTokens: (gameState.status.statsSzenenGenInputTokens || 0) + sceneGenInput,
+          statsSzenenGenOutputTokens: (gameState.status.statsSzenenGenOutputTokens || 0) + sceneGenOutput,
+          statsSzenenGenCost: (gameState.status.statsSzenenGenCost || 0) + sceneGenCost,
+          statsBilderCount: (gameState.status.statsBilderCount || 0) + (imageGenerated ? 1 : 0),
+          statsBilderCost: (gameState.status.statsBilderCost || 0) + imageCost,
+          statsMusikCount: (gameState.status.statsMusikCount || 0) + (gmResponse.musik_wechsel ? 1 : 0),
+          statsMusikCost: (gameState.status.statsMusikCost || 0),
+          totalCost: (gameState.status.totalCost || 0) + usage.costUsd + sceneGenCost + imageCost,
         };
         const intermediateState: GameState = {
           ...gameState,
@@ -78,15 +110,33 @@ export async function POST(request: Request) {
       }
 
       // Otherwise, update the state files on disk
+      const imageGenerated = !!gmResponse.bild_prompt;
+      const imageCost = imageGenerated ? 0.03 : 0;
+      
+      const sceneGenInput = scenePromptResult ? scenePromptResult.usage.inputTokens : 0;
+      const sceneGenOutput = scenePromptResult ? scenePromptResult.usage.outputTokens : 0;
+      const sceneGenCost = scenePromptResult ? scenePromptResult.usage.costUsd : 0;
+
       const updatedStatus: PlayerStatus = {
         ...gameState.status,
         lp: Math.max(0, Math.min(100, gmResponse.speichern.lp_neu)),
-        location: gmResponse.speichern.weltstand_update?.includes('Ort:') 
-          ? gmResponse.speichern.weltstand_update.split('Ort:')[1].trim()
-          : gameState.status.location,
-        totalInputTokens: (gameState.status.totalInputTokens || 0) + usage.inputTokens,
-        totalOutputTokens: (gameState.status.totalOutputTokens || 0) + usage.outputTokens,
-        totalCost: (gameState.status.totalCost || 0) + usage.costUsd,
+        location: gmResponse.speichern.neuer_ort || gameState.status.location,
+        totalInputTokens: (gameState.status.totalInputTokens || 0) + usage.inputTokens + sceneGenInput,
+        totalOutputTokens: (gameState.status.totalOutputTokens || 0) + usage.outputTokens + sceneGenOutput,
+        statsSpielleiterInputTokens: (gameState.status.statsSpielleiterInputTokens || 0) + usage.inputTokens,
+        statsSpielleiterOutputTokens: (gameState.status.statsSpielleiterOutputTokens || 0) + usage.outputTokens,
+        statsSpielleiterCost: (gameState.status.statsSpielleiterCost || 0) + usage.costUsd,
+        statsTranskriptionInputTokens: gameState.status.statsTranskriptionInputTokens || 0,
+        statsTranskriptionOutputTokens: gameState.status.statsTranskriptionOutputTokens || 0,
+        statsTranskriptionCost: gameState.status.statsTranskriptionCost || 0,
+        statsSzenenGenInputTokens: (gameState.status.statsSzenenGenInputTokens || 0) + sceneGenInput,
+        statsSzenenGenOutputTokens: (gameState.status.statsSzenenGenOutputTokens || 0) + sceneGenOutput,
+        statsSzenenGenCost: (gameState.status.statsSzenenGenCost || 0) + sceneGenCost,
+        statsBilderCount: (gameState.status.statsBilderCount || 0) + (imageGenerated ? 1 : 0),
+        statsBilderCost: (gameState.status.statsBilderCost || 0) + imageCost,
+        statsMusikCount: (gameState.status.statsMusikCount || 0) + (gmResponse.musik_wechsel ? 1 : 0),
+        statsMusikCost: (gameState.status.statsMusikCost || 0),
+        totalCost: (gameState.status.totalCost || 0) + usage.costUsd + sceneGenCost + imageCost,
       };
 
       // Append narrator text and player action to play protocol

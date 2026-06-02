@@ -4,9 +4,11 @@ import { Mic, Square, ArrowRight, Loader2 } from 'lucide-react';
 interface TextInputProps {
   onSubmit: (text: string) => void;
   disabled: boolean;
+  sessionId?: string | null;
+  onTranscriptionComplete?: (state: any) => void;
 }
 
-export default function TextInput({ onSubmit, disabled }: TextInputProps) {
+export default function TextInput({ onSubmit, disabled, sessionId, onTranscriptionComplete }: TextInputProps) {
   const [inputValue, setInputValue] = useState('');
   const [isRecording, setIsRecording] = useState(false);
   const [isTranscribing, setIsTranscribing] = useState(false);
@@ -68,7 +70,7 @@ export default function TextInput({ onSubmit, disabled }: TextInputProps) {
             const response = await fetch('/api/transcribe', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ audio: base64Audio, mimeType: recordedType }),
+              body: JSON.stringify({ audio: base64Audio, mimeType: recordedType, sessionId }),
             });
 
             const data = await response.json();
@@ -76,6 +78,9 @@ export default function TextInput({ onSubmit, disabled }: TextInputProps) {
 
             if (data.text) {
               setInputValue(data.text);
+              if (data.state && onTranscriptionComplete) {
+                onTranscriptionComplete(data.state);
+              }
             }
           } catch (err) {
             console.error('Failed to transcribe:', err);

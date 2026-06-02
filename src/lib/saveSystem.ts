@@ -12,6 +12,20 @@ export interface PlayerStatus {
   totalInputTokens?: number;
   totalOutputTokens?: number;
   totalCost?: number;
+  // Detailed token and cost breakdown
+  statsSpielleiterInputTokens?: number;
+  statsSpielleiterOutputTokens?: number;
+  statsSpielleiterCost?: number;
+  statsTranskriptionInputTokens?: number;
+  statsTranskriptionOutputTokens?: number;
+  statsTranskriptionCost?: number;
+  statsSzenenGenInputTokens?: number;
+  statsSzenenGenOutputTokens?: number;
+  statsSzenenGenCost?: number;
+  statsBilderCount?: number;
+  statsBilderCost?: number;
+  statsMusikCount?: number;
+  statsMusikCost?: number;
 }
 
 export interface Weltstand {

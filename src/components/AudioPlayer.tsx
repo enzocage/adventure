@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Volume2, VolumeX } from 'lucide-react';
 
 interface AudioPlayerProps {
-  track: 'normal' | 'drone' | 'silent' | 'piano' | 'percussion' | 'city' | null;
+  track: 'normal' | 'drone' | 'silent' | 'piano' | null;
 }
 
 export default function AudioPlayer({ track }: AudioPlayerProps) {

@@ -12,7 +12,7 @@ const storyResponseSchema = {
   properties: {
     narration: {
       type: SchemaType.STRING,
-      description: "Narrative description for the player in their selected language. Support markdown like **bold** or *italics*. ALWAYS include Lügengehör perception (e.g. hearing a lie scratching/screeching or hearing clean truths) as part of the narrator's feedback."
+      description: "Narrative description for the player in their selected language. Keep it short and concise (average length should be cut by about 50%, max 3-4 short sentences or 2 small paragraphs). Support markdown like **bold** or *italics*. ALWAYS include Lügengehör perception (e.g. hearing a lie scratching/screeching or hearing clean truths) as part of the narrator's feedback."
     },
     wuerfel_noetig: {
       type: SchemaType.BOOLEAN,
@@ -41,7 +41,7 @@ const storyResponseSchema = {
     },
     bild_prompt: {
       type: SchemaType.STRING,
-      description: "Detailed English prompt for image generation reflecting the current action and scene, using 'bureaucratic surrealism' style rules. ALWAYS generate a unique prompt matching the player's action and the resulting scene state."
+      description: "Highly detailed and differentiated multi-layered English prompt for image generation reflecting the current action and scene, following the structured 6-layer template defined in Visualisierungsstil.md. It must include: camera & lens (20mm wide-angle), immediate foreground details (hands, desks, documents, objects), surrounding textures and materials (scuffed linoleum, dusty beige walls), specific lighting & atmospheric qualities (overhead flickering cold fluorescent glare, volumetric dust), at least one subtle surreal or anomalous element, and the style tags. ALWAYS generate a unique prompt matching the player's action and the resulting scene state."
     },
     musik_wechsel: {
       type: SchemaType.BOOLEAN,
@@ -49,7 +49,7 @@ const storyResponseSchema = {
     },
     musik_track: {
       type: SchemaType.STRING,
-      description: "Recommended ambient music track: 'normal', 'drone', 'silent', 'piano', 'percussion', 'city' or null."
+      description: "Recommended atmospheric ambient loop (strictly without rhythm or percussion): 'normal', 'drone', 'silent', 'piano' or null."
     },
     speichern: {
       type: SchemaType.OBJECT,
@@ -62,6 +62,10 @@ const storyResponseSchema = {
           type: SchemaType.INTEGER,
           description: "The updated LP score (current LP plus lp_aenderung, clamped between 0 and 100)."
         },
+        neuer_ort: {
+          type: SchemaType.STRING,
+          description: "The exact name of the current location of the player after this action (e.g. 'Verwaltungszentrum, Untergeschoss -4, Tiefenarchiv' or 'Verwaltungszentrum, Wartezone C, Erdgeschoss'). Update this on every turn to be precise."
+        },
         weltstand_update: {
           type: SchemaType.STRING,
           description: "Update to the world state (e.g. 'Stille Zone 2 aktiv', 'Raum 112 aufgesperrt') or null."
@@ -71,7 +75,7 @@ const storyResponseSchema = {
           description: "Update to NPC status/relationships or null."
         }
       },
-      required: ["protokoll_eintrag", "lp_neu"]
+      required: ["protokoll_eintrag", "lp_neu", "neuer_ort"]
     }
   },
   required: [
@@ -125,8 +129,11 @@ Bitte beachte die folgenden Regeln penibel:
 4. Würfeln (wuerfel_noetig=true): Fordere einen Wurf für ambitionierte Aktionen (z.B. Kämpfen, Heimlichkeit, schwere Überredung). Wenn wuerfel_noetig=true ist, liefere einen kurzen Text, der die Anforderung beschreibt. Der Würfelwurf wird dann vom System durchgeführt und dir in der nächsten Anfrage übergeben, woraufhin du das Ergebnis narrativ beschreibst.
 5. Lebenspunkte (LP): Achte auf Tomas' LP. Er startet bei 100 LP. Bei 0 LP ist er tot. Reduziere LP bei Schaden oder Lügenüberlastung.
 6. Halte dich an den surrealen, kafkaesken, Lynchian-beige Ton des Spiels.
-7. Bild-Generierung (bild_prompt): Der englische prompt für das Bild muss absolut präzise und detailliert genau das darstellen, was du in der Story-Narration (narration) beschreibst (z. B. bestimmte Gegenstände auf dem Tisch, die Haltung von Personen, Beleuchtungsverhältnisse, Räume). Vermeide allgemeine Beschreibungen. Jedes Detail aus der Narration, das visuell erkennbar sein könnte, sollte im Bild-Prompt vorkommen.
+7. Bild-Generierung (bild_prompt): Der englische prompt für das Bild muss hochgradig detailliert, präzise und differenziert genau das darstellen, was du in der Story-Narration (narration) beschreibst. Verwende zwingend die strukturierte 6-schichtige Prompt-Vorlage aus Visualisierungsstil.md (1. Camera & POV (Weitwinkel, First-Person), 2. Subject & Action Details (Mittel-/Vordergrundgegenstände, Posen), 3. Environment & Materiality (Linoleum, Raufaser, vergilbtes Papier), 4. Lighting & Atmosphere (Neonflimmern, bläulich-weiß, Staubpartikel), 5. Uncanny/Surreal Element (surreales/anomales Detail), 6. Style Signature Tags). Vermeide allgemeine oder kurze Prompts. Jedes Detail aus der Narration, das visuell erkennbar sein könnte, sollte im Bild-Prompt vorkommen.
 8. JSON-Gültigkeit: Stelle sicher, dass Anführungszeichen innerhalb von Textfeldern korrekt als \\\" maskiert sind, damit das JSON-Format nicht beschädigt wird. Die Antwort darf unter keinen Umständen unvollständig sein oder mitten im Satz abgeschnitten werden.
+9. TEXTKÜRZUNG (Sehr wichtig): Halte deine Narration (Feld "narration") extrem kurz und prägnant. Kürze die durchschnittliche Textausgabe um ca. 50% im Vergleich zu früher. Beschreibe Szenen und Reaktionen dicht und atmosphärisch, aber in maximal 3-4 Sätzen bzw. 2 kleinen Absätzen.
+10. MUSIK (Sehr wichtig): Verwende AUSSCHLIESSLICH atmosphärische Ambient-Loops OHNE Rhythmus, Trommeln, Takt oder Beats ('normal', 'drone', 'piano', 'silent'). Schlage niemals Tracks mit Rhythmus vor.
+11. STANDORT (Sehr wichtig): Aktualisiere bei jeder Antwort das Feld "speichern.neuer_ort" mit dem genauen, aktuellen Aufenthaltsort von Tomas (z. B. 'Verwaltungszentrum, Untergeschoss -4, Tiefenarchiv' oder 'Verwaltungszentrum, Treppenhaus').
 
 Hier ist die gesamte Spieldokumentation als Referenz:`
     : `You are the Game Master for the surreal bureaucratic RPG "Kaldermünd".
@@ -138,8 +145,11 @@ Carefully follow these rules:
 4. Dice Rolls (wuerfel_noetig=true): Demand a roll for ambitious checks. When true, tell the user what they are rolling for. The server rolls and sends the result in the next turn, where you narrate the outcome.
 5. LP: Monitor Tomas's health. Clamps between 0 and 100.
 6. Stick to the surreal, kafkaesque, Lynchian-beige tone of the game.
-7. Image Generation (bild_prompt): The English prompt for the image must be highly precise and detailed, showing exactly what you describe in your narration (e.g. specific items on the table, postures of people, lighting conditions, rooms). Avoid generic prompts. Every visual detail from the narration should be represented in the image prompt.
+7. Image Generation (bild_prompt): The English prompt for the image must be highly precise, detailed, and differentiated, following the structured 6-layer template in Visualisierungsstil.md: 1. Camera & POV (wide-angle, first-person), 2. Subject & Action (immediate foreground objects, poses), 3. Environment & Materials (scuffed linoleum, textured beige wallpaper, dusty forms), 4. Lighting & Atmosphere (flickering cold fluorescent glare, blue-white tint, volumetric dust), 5. Uncanny/Surreal Detail (subtle anomaly), 6. Style Signature Tags. Avoid generic prompts. Every visual detail from the narration should be represented in the image prompt.
 8. JSON Validity: Ensure all double quotes inside text fields are properly escaped as \\\" so that they do not break the JSON string format. The response must never be incomplete or truncated.
+9. TEXT SHORTENING (Very important): Keep your narration (field "narration") extremely short and concise. Shorten the average text output by about 50%. Narrate dynamically and with heavy atmosphere but limit it to a maximum of 3-4 sentences or 2 short paragraphs.
+10. MUSIC (Very important): Recommended music track MUST be strictly a rhythm-free, drumless atmospheric ambient loop ('normal', 'drone', 'piano', 'silent'). Never recommend tracks with any beats or rhythm.
+11. LOCATION (Very important): Update the "speichern.neuer_ort" field on every turn with the exact current location of Tomas (e.g., 'Verwaltungszentrum, Untergeschoss -4, Tiefenarchiv' or 'Verwaltungszentrum, Stairwell').
 
 Here is the complete game lore/rules documentation for reference:`;
 
@@ -156,10 +166,11 @@ export interface StoryResponse {
   neue_szene: boolean;
   bild_prompt: string | null;
   musik_wechsel: boolean;
-  musik_track: 'normal' | 'drone' | 'silent' | 'piano' | 'percussion' | 'city' | null;
+  musik_track: 'normal' | 'drone' | 'silent' | 'piano' | null;
   speichern: {
     protokoll_eintrag: string;
     lp_neu: number;
+    neuer_ort: string;
     weltstand_update: string | null;
     npc_update: string | null;
   };
@@ -261,7 +272,16 @@ Generate the structured JSON response. Make sure all values follow the required 
   }
 }
 
-export async function transcribeAudio(audioBase64: string, mimeType: string): Promise<string> {
+export interface TranscribeResult {
+  text: string;
+  usage: {
+    inputTokens: number;
+    outputTokens: number;
+    costUsd: number;
+  };
+}
+
+export async function transcribeAudio(audioBase64: string, mimeType: string): Promise<TranscribeResult> {
   const model = genAI.getGenerativeModel({
     model: 'gemini-2.5-flash',
   });
@@ -276,5 +296,109 @@ export async function transcribeAudio(audioBase64: string, mimeType: string): Pr
     'Transcribe this spoken German/English audio exactly. Return only the transcribed text, nothing else. If there is no speech, return an empty string.'
   ]);
 
-  return result.response.text().trim();
+  const text = result.response.text().trim();
+  const usageMetadata = result.response.usageMetadata;
+  const inputTokens = usageMetadata?.promptTokenCount || 0;
+  const outputTokens = usageMetadata?.candidatesTokenCount || 0;
+  // Gemini 2.5 Flash pricing: $0.075/1M input, $0.30/1M output
+  const costUsd = (inputTokens * 0.000000075) + (outputTokens * 0.0000003);
+
+  return {
+    text,
+    usage: {
+      inputTokens,
+      outputTokens,
+      costUsd
+    }
+  };
+}
+
+export interface VisualScenePromptResult {
+  prompt: string;
+  usage: {
+    inputTokens: number;
+    outputTokens: number;
+    costUsd: number;
+  };
+}
+
+export async function generateVisualScenePrompt(
+  protokoll: string,
+  location: string,
+  latestNarration: string,
+  playerAction: string
+): Promise<VisualScenePromptResult> {
+  const visualGuide = await loadLoreMD('Visualisierungsstil.md');
+
+  const systemInstruction = `You are the Visual Scene Designer for the surreal bureaucratic RPG "Kaldermünd".
+Your task is to generate a highly detailed, evocative, and differentiated English image generation prompt for Google's Imagen 4.0.
+You must strictly follow the visual style, materials, lighting, and anomalies described in Visualisierungsstil.md (Bureaucratic Surrealism).
+
+Construct the prompt using this structured 6-layer template:
+1. Camera & POV: First-person POV, shot through a wide-angle lens (e.g. 20mm or 24mm) with deep depth of field and slight barrel distortion.
+2. Subject & Action Details: Precise foreground and middleground visual elements from the latest narration (e.g., exact documents, telephones, tools, hands, poses, clothing, facial expressions of characters).
+3. Environment & Materiality: Details of the surroundings (e.g., scuffed green linoleum, textured beige wallpaper, dusty folders, veneer counters, signs).
+4. Lighting & Atmospheric Effects: Specific lighting conditions (e.g., cold blue-white flickering fluorescent tubes, soft green tints, volumetric dust shafts, warm orange candle wax glow).
+5. Uncanny / Surreal Element: Incorporate exactly one subtle surreal anomaly (e.g., impossible shadows, doors sideways, geometric distortions, floating objects).
+6. Style Signature Tags: Append the exact visual tags: "Style: bureaucratic surrealism, first-person perspective, fluorescent office lighting, institutional beige walls, linoleum floors, David Lynch atmosphere, Kafka mundane horror, contemporary German setting, hyperreal detail, desaturated, uncanny normality, cinematic composition, subtle wrongness."
+
+Rules:
+1. The prompt must be in ENGLISH.
+2. Differentiate the scene by translating specific narration events (e.g. wet rain spots, a specific stamp on a form, a key in a drawer, a character's expression) into rich visual descriptions. Avoid generic descriptions.
+3. Output ONLY the raw English prompt string. Do not wrap it in quotes, markdown code blocks, or HTML tags. Do not add any introductory or concluding text.`;
+
+  const model = genAI.getGenerativeModel({
+    model: 'gemini-2.5-flash',
+    systemInstruction: systemInstruction,
+    generationConfig: {
+      temperature: 0.7,
+      topP: 0.95,
+      maxOutputTokens: 1000,
+    },
+  });
+
+  const prompt = `
+=== VISUAL STYLE GUIDE ===
+${visualGuide}
+
+=== GAME CHRONOLOGICAL PROTOCOL ===
+${protokoll}
+
+=== CURRENT STATE ===
+Location: ${location}
+Latest Action: ${playerAction}
+Latest Narration: ${latestNarration}
+
+Generate the detailed visual image prompt for this scene.
+`;
+
+  try {
+    const result = await model.generateContent(prompt);
+    const responseText = result.response.text().trim();
+    
+    const usageMetadata = result.response.usageMetadata;
+    const inputTokens = usageMetadata?.promptTokenCount || 0;
+    const outputTokens = usageMetadata?.candidatesTokenCount || 0;
+    // Gemini 2.5 Flash pricing: $0.075/1M input, $0.30/1M output
+    const costUsd = (inputTokens * 0.000000075) + (outputTokens * 0.0000003);
+
+    return {
+      prompt: responseText,
+      usage: {
+        inputTokens,
+        outputTokens,
+        costUsd
+      }
+    };
+  } catch (err) {
+    console.error("Error in generateVisualScenePrompt:", err);
+    return {
+      prompt: `${location}, first-person perspective. Style: bureaucratic surrealism.`,
+      usage: {
+        inputTokens: 0,
+        outputTokens: 0,
+        costUsd: 0
+      }
+    };
+  }
 }
