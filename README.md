@@ -1,7 +1,7 @@
 # 🏛️ Kaldermünd — Ein surreales Bürokratie-Rollenspiel
 
 <div align="center">
-  <img src="public/all.gif" width="100%" alt="Kaldermünd RPG Banner" />
+  <img src="public/all2.gif" width="100%" alt="Kaldermünd RPG Banner" />
 </div>
 
 <br />
