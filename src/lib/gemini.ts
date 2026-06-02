@@ -183,7 +183,7 @@ export async function queryGameMaster(
   const systemInstruction = await compileSystemInstruction(sprache);
 
   const model = genAI.getGenerativeModel({
-    model: 'gemini-2.5-pro',
+    model: 'gemini-2.5-flash',
     systemInstruction: systemInstruction,
     generationConfig: {
       responseMimeType: 'application/json',
@@ -236,8 +236,8 @@ Generate the structured JSON response. Make sure all values follow the required 
     const inputTokens = usageMetadata?.promptTokenCount || 0;
     const outputTokens = usageMetadata?.candidatesTokenCount || 0;
     
-    // Gemini 2.5 Pro pricing: $1.25/1M input, $5.00/1M output
-    const costUsd = (inputTokens * 0.00000125) + (outputTokens * 0.000005);
+    // Gemini 2.5 Flash pricing: $0.075/1M input, $0.30/1M output
+    const costUsd = (inputTokens * 0.000000075) + (outputTokens * 0.0000003);
 
     try {
       const response = JSON.parse(responseText) as StoryResponse;

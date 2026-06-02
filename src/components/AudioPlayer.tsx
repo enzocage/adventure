@@ -24,8 +24,8 @@ export default function AudioPlayer({ track }: AudioPlayerProps) {
 
     if (trackName === 'silent') return;
 
-    console.log(`Loading Lyria background loop for track: "${trackName}"`);
-    const url = `/api/music?track=${trackName}`;
+    console.log(`Loading static background loop for track: "${trackName}"`);
+    const url = `/assets/musik/${trackName}.mp3`;
     const audio = new Audio(url);
     audio.loop = true;
     audio.volume = 0.25; // Safe low background volume

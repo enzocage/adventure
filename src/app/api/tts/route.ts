@@ -52,6 +52,16 @@ async function handleTtsRequest(text: string, lang: string) {
       return NextResponse.json({ error: `Grok TTS API returned status ${response.status}` }, { status: response.status });
     }
 
+    // Stream the audio response body directly to the client for minimum latency
+    if (response.body) {
+      return new NextResponse(response.body as any, {
+        headers: {
+          'Content-Type': 'audio/mpeg',
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+        },
+      });
+    }
+
     const audioBuffer = await response.arrayBuffer();
 
     return new NextResponse(new Uint8Array(audioBuffer), {
